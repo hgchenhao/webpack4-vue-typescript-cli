@@ -2,11 +2,21 @@ const path = require('path');
 const WebpackMerge = require('webpack-merge');
 const webpackConfig = require('./webpack.config.js');
 
+const getDevPort = (argv, port = 8099) => {
+  if (argv.parameters) {
+    const tempArr = argv.parameters.split(':');
+
+    return tempArr[0] === 'port' ? tempArr[1] : port
+  }
+
+  return port;
+}
+
 module.exports = (env, argv) => {
 
   return WebpackMerge(webpackConfig(env, argv), {
     devServer: {
-      port: 8099,
+      port: getDevPort(argv),
       compress: true,
       hot: true,
       hotOnly: true,

@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "npm run start",
-    "start": "webpack-dev-server --config ./build/webpack.dev.js --mode=development --env.dev=development --open --progress",
-    "compile": "rm -rf dist && webpack-cli --progress --config ./build/webpack.prod.js --mode=production --env.dev=production",
+    "start": "webpack-dev-server --config ./build/webpack.dev.js --mode=development --env.dev=development --open --progress --parameters",
+    "compile": "rm -rf dist && webpack-cli --progress --config ./build/webpack.prod.js --mode=production --env.dev=production --parameters",
     "analyzer": "webpack-cli --progress --config ./build/webpack.prod.js --mode=production --env.dev=production --env.dev=analyzer --profile --json > stats.json",
     "dll": "webpack --progress --colors --config ./build/webpack.dll.config.js"
   },
