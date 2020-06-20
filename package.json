@@ -1,14 +1,14 @@
 {
-  "name": "webpack-base",
+  "name": "webpack4-vue-typescript-cli",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "npm run start",
-    "start": "webpack-dev-server --config webpack.dev.js --mode=development --env.dev=development --open --progress",
-    "compile": "rm -rf dist && webpack-cli --progress --config webpack.prod.js --mode=production --env.dev=production --profile",
-    "analyzer": "webpack-cli --progress --config webpack.prod.js --mode=production --env.dev=production --env.dev=analyzer --profile --json > stats.json",
-    "dll": "webpack --progress --colors --config webpack.dll.config.js"
+    "start": "webpack-dev-server --config ./build/webpack.dev.js --mode=development --env.dev=development --open --progress",
+    "compile": "rm -rf dist && webpack-cli --progress --config ./build/webpack.prod.js --mode=production --env.dev=production",
+    "analyzer": "webpack-cli --progress --config ./build/webpack.prod.js --mode=production --env.dev=production --env.dev=analyzer --profile --json > stats.json",
+    "dll": "webpack --progress --colors --config ./build/webpack.dll.config.js"
   },
   "author": "",
   "license": "ISC",
@@ -22,6 +22,7 @@
     "copy-webpack-plugin": "^6.0.2",
     "css-loader": "^3.5.3",
     "file-loader": "^6.0.0",
+    "friendly-errors-webpack-plugin": "^1.7.0",
     "happypack": "^5.0.1",
     "html-loader": "^1.1.0",
     "less": "^3.11.3",

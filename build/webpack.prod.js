@@ -32,6 +32,7 @@ const filterPlugins = (env) => {
 module.exports = (env, argv) => {
 
   return WebpackMerge(webpackConfig(env, argv), {
+    stats: 'errors-warnings',  // 编译时 只提示错误和警告
     performance: {
       hints: false
     },
@@ -56,7 +57,7 @@ module.exports = (env, argv) => {
       new OptimizeCssAssetsPlugin(),
       new DllReferencePlugin({
         context: __dirname,
-        manifest: require('./vendor/vendor-manifest.json'),
+        manifest: require('../vendor/vendor-manifest.json'),
       }),
     ]),
   })

@@ -4,15 +4,15 @@ Use Ctrl+C to close it
   "errors": [],
   "warnings": [],
   "version": "4.43.0",
-  "hash": "99b89078635540f07f3d",
-  "time": 3315,
-  "builtAt": 1592632554759,
+  "hash": "cb54f2a5818d370cab3e",
+  "time": 3360,
+  "builtAt": 1592662066166,
   "publicPath": "",
   "outputPath": "/private/var/www/webpack/webpack-base/dist",
   "assetsByChunkName": {
     "main": [
       "css/main.26745758a4f5c78798cc.css",
-      "js/main.dd6f4366f7e28adb4629.js"
+      "js/main.cb54f2a5818d370cab3e.js"
     ]
   },
   "assets": [
@@ -47,8 +47,8 @@ Use Ctrl+C to close it
       "emitted": true
     },
     {
-      "name": "js/main.dd6f4366f7e28adb4629.js",
-      "size": 3712,
+      "name": "js/main.cb54f2a5818d370cab3e.js",
+      "size": 3684,
       "chunks": [
         0
       ],
@@ -62,7 +62,7 @@ Use Ctrl+C to close it
     },
     {
       "name": "vendor/vendor-manifest.json",
-      "size": 513,
+      "size": 518,
       "chunks": [],
       "chunkNames": [],
       "info": {},
@@ -85,7 +85,7 @@ Use Ctrl+C to close it
       ],
       "assets": [
         "css/main.26745758a4f5c78798cc.css",
-        "js/main.dd6f4366f7e28adb4629.js"
+        "js/main.cb54f2a5818d370cab3e.js"
       ],
       "children": {},
       "childAssets": {}
@@ -98,7 +98,7 @@ Use Ctrl+C to close it
       ],
       "assets": [
         "css/main.26745758a4f5c78798cc.css",
-        "js/main.dd6f4366f7e28adb4629.js"
+        "js/main.cb54f2a5818d370cab3e.js"
       ],
       "children": {},
       "childAssets": {}
@@ -110,15 +110,15 @@ Use Ctrl+C to close it
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 8650,
+      "size": 8588,
       "names": [
         "main"
       ],
       "files": [
         "css/main.26745758a4f5c78798cc.css",
-        "js/main.dd6f4366f7e28adb4629.js"
+        "js/main.cb54f2a5818d370cab3e.js"
       ],
-      "hash": "dd6f4366f7e28adb4629",
+      "hash": "cb4d690971312e15dc49",
       "siblings": [],
       "parents": [],
       "children": [],
@@ -147,8 +147,8 @@ Use Ctrl+C to close it
               "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
               "name": "multi ./src/index.js",
               "profile": {
-                "factory": 0,
-                "building": 5
+                "factory": 1,
+                "building": 4
               }
             },
             {
@@ -156,8 +156,8 @@ Use Ctrl+C to close it
               "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 32,
-                "building": 871
+                "factory": 29,
+                "building": 888
               }
             },
             {
@@ -165,14 +165,14 @@ Use Ctrl+C to close it
               "identifier": "/private/var/www/webpack/webpack-base/node_modules/vue-loader/lib/index.js??vue-loader-options!/private/var/www/webpack/webpack-base/src/app.vue",
               "name": "./src/app.vue",
               "profile": {
-                "factory": 305,
-                "building": 785
+                "factory": 307,
+                "building": 815
               }
             }
           ],
           "profile": {
             "factory": 7,
-            "building": 167
+            "building": 170
           },
           "failed": false,
           "errors": 0,
@@ -249,8 +249,8 @@ Use Ctrl+C to close it
               "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
               "name": "multi ./src/index.js",
               "profile": {
-                "factory": 0,
-                "building": 5
+                "factory": 1,
+                "building": 4
               }
             },
             {
@@ -258,8 +258,8 @@ Use Ctrl+C to close it
               "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 32,
-                "building": 871
+                "factory": 29,
+                "building": 888
               }
             },
             {
@@ -267,8 +267,8 @@ Use Ctrl+C to close it
               "identifier": "/private/var/www/webpack/webpack-base/node_modules/vue-loader/lib/index.js??vue-loader-options!/private/var/www/webpack/webpack-base/src/app.vue",
               "name": "./src/app.vue",
               "profile": {
-                "factory": 305,
-                "building": 785
+                "factory": 307,
+                "building": 815
               }
             },
             {
@@ -277,13 +277,13 @@ Use Ctrl+C to close it
               "name": "./src/app.vue?vue&type=script&lang=js&",
               "profile": {
                 "factory": 7,
-                "building": 167
+                "building": 170
               }
             }
           ],
           "profile": {
-            "factory": 1,
-            "building": 566
+            "factory": 2,
+            "building": 561
           },
           "failed": false,
           "errors": 0,
@@ -360,8 +360,8 @@ Use Ctrl+C to close it
               "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
               "name": "multi ./src/index.js",
               "profile": {
-                "factory": 0,
-                "building": 5
+                "factory": 1,
+                "building": 4
               }
             },
             {
@@ -369,8 +369,8 @@ Use Ctrl+C to close it
               "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 32,
-                "building": 871
+                "factory": 29,
+                "building": 888
               }
             },
             {
@@ -378,8 +378,8 @@ Use Ctrl+C to close it
               "identifier": "/private/var/www/webpack/webpack-base/node_modules/vue-loader/lib/index.js??vue-loader-options!/private/var/www/webpack/webpack-base/src/app.vue",
               "name": "./src/app.vue",
               "profile": {
-                "factory": 305,
-                "building": 785
+                "factory": 307,
+                "building": 815
               }
             },
             {
@@ -388,7 +388,7 @@ Use Ctrl+C to close it
               "name": "./src/app.vue?vue&type=script&lang=js&",
               "profile": {
                 "factory": 7,
-                "building": 167
+                "building": 170
               }
             },
             {
@@ -396,8 +396,8 @@ Use Ctrl+C to close it
               "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/node_modules/vue-loader/lib/index.js??vue-loader-options!/private/var/www/webpack/webpack-base/src/app.vue?vue&type=script&lang=js&",
               "name": "./node_modules/happypack/loader.js?id=happybabel!./node_modules/babel-loader/lib??ref--4-1!./node_modules/vue-loader/lib??vue-loader-options!./src/app.vue?vue&type=script&lang=js&",
               "profile": {
-                "factory": 1,
-                "building": 566
+                "factory": 2,
+                "building": 561
               }
             },
             {
@@ -406,14 +406,14 @@ Use Ctrl+C to close it
               "name": "./src/vue/test.vue",
               "profile": {
                 "factory": 2,
-                "building": 2,
-                "dependencies": 1
+                "building": 4,
+                "dependencies": 2
               }
             }
           ],
           "profile": {
             "factory": 3,
-            "building": 0
+            "building": 1
           },
           "failed": false,
           "errors": 0,
@@ -473,7 +473,7 @@ Use Ctrl+C to close it
           "name": "./node_modules/happypack/loader.js?id=happybabel!./node_modules/babel-loader/lib??ref--4-1!./node_modules/vue-loader/lib??vue-loader-options!./src/vue/test.vue?vue&type=script&lang=js&",
           "index": 19,
           "index2": 12,
-          "size": 258,
+          "size": 250,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -490,8 +490,8 @@ Use Ctrl+C to close it
               "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
               "name": "multi ./src/index.js",
               "profile": {
-                "factory": 0,
-                "building": 5
+                "factory": 1,
+                "building": 4
               }
             },
             {
@@ -499,8 +499,8 @@ Use Ctrl+C to close it
               "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 32,
-                "building": 871
+                "factory": 29,
+                "building": 888
               }
             },
             {
@@ -508,8 +508,8 @@ Use Ctrl+C to close it
               "identifier": "/private/var/www/webpack/webpack-base/node_modules/vue-loader/lib/index.js??vue-loader-options!/private/var/www/webpack/webpack-base/src/app.vue",
               "name": "./src/app.vue",
               "profile": {
-                "factory": 305,
-                "building": 785
+                "factory": 307,
+                "building": 815
               }
             },
             {
@@ -518,7 +518,7 @@ Use Ctrl+C to close it
               "name": "./src/app.vue?vue&type=script&lang=js&",
               "profile": {
                 "factory": 7,
-                "building": 167
+                "building": 170
               }
             },
             {
@@ -526,8 +526,8 @@ Use Ctrl+C to close it
               "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/node_modules/vue-loader/lib/index.js??vue-loader-options!/private/var/www/webpack/webpack-base/src/app.vue?vue&type=script&lang=js&",
               "name": "./node_modules/happypack/loader.js?id=happybabel!./node_modules/babel-loader/lib??ref--4-1!./node_modules/vue-loader/lib??vue-loader-options!./src/app.vue?vue&type=script&lang=js&",
               "profile": {
-                "factory": 1,
-                "building": 566
+                "factory": 2,
+                "building": 561
               }
             },
             {
@@ -536,8 +536,8 @@ Use Ctrl+C to close it
               "name": "./src/vue/test.vue",
               "profile": {
                 "factory": 2,
-                "building": 2,
-                "dependencies": 1
+                "building": 4,
+                "dependencies": 2
               }
             },
             {
@@ -546,13 +546,13 @@ Use Ctrl+C to close it
               "name": "./src/vue/test.vue?vue&type=script&lang=js&",
               "profile": {
                 "factory": 3,
-                "building": 0
+                "building": 1
               }
             }
           ],
           "profile": {
             "factory": 1,
-            "building": 564
+            "building": 562
           },
           "failed": false,
           "errors": 0,
@@ -604,7 +604,7 @@ Use Ctrl+C to close it
           ],
           "optimizationBailout": [],
           "depth": 7,
-          "source": "//\n//\n//\n//\n//\n//\nexport default {\n  components: {},\n  props: {},\n  data: function data() {\n    return {\n      title: 'Test vue 123'\n    };\n  },\n  created: function created() {},\n  mounted: function mounted() {},\n  computed: {},\n  methods: {},\n  watch: {}\n};"
+          "source": "//\n//\n//\n//\n//\n//\nexport default {\n  components: {},\n  props: {},\n  data: function data() {\n    return {\n      title: 'Test'\n    };\n  },\n  created: function created() {},\n  mounted: function mounted() {},\n  computed: {},\n  methods: {},\n  watch: {}\n};"
         },
         {
           "id": 4,
@@ -629,8 +629,8 @@ Use Ctrl+C to close it
               "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
               "name": "multi ./src/index.js",
               "profile": {
-                "factory": 0,
-                "building": 5
+                "factory": 1,
+                "building": 4
               }
             },
             {
@@ -638,8 +638,8 @@ Use Ctrl+C to close it
               "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 32,
-                "building": 871
+                "factory": 29,
+                "building": 888
               }
             },
             {
@@ -647,14 +647,14 @@ Use Ctrl+C to close it
               "identifier": "/private/var/www/webpack/webpack-base/node_modules/vue-loader/lib/index.js??vue-loader-options!/private/var/www/webpack/webpack-base/src/app.vue",
               "name": "./src/app.vue",
               "profile": {
-                "factory": 305,
-                "building": 785
+                "factory": 307,
+                "building": 815
               }
             }
           ],
           "profile": {
             "factory": 7,
-            "building": 167
+            "building": 170
           },
           "failed": false,
           "errors": 0,
@@ -731,8 +731,8 @@ Use Ctrl+C to close it
               "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
               "name": "multi ./src/index.js",
               "profile": {
-                "factory": 0,
-                "building": 5
+                "factory": 1,
+                "building": 4
               }
             },
             {
@@ -740,8 +740,8 @@ Use Ctrl+C to close it
               "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 32,
-                "building": 871
+                "factory": 29,
+                "building": 888
               }
             },
             {
@@ -749,14 +749,14 @@ Use Ctrl+C to close it
               "identifier": "/private/var/www/webpack/webpack-base/node_modules/vue-loader/lib/index.js??vue-loader-options!/private/var/www/webpack/webpack-base/src/app.vue",
               "name": "./src/app.vue",
               "profile": {
-                "factory": 305,
-                "building": 785
+                "factory": 307,
+                "building": 815
               }
             }
           ],
           "profile": {
             "factory": 7,
-            "building": 167
+            "building": 170
           },
           "failed": false,
           "errors": 0,
@@ -826,8 +826,8 @@ Use Ctrl+C to close it
               "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
               "name": "multi ./src/index.js",
               "profile": {
-                "factory": 0,
-                "building": 5
+                "factory": 1,
+                "building": 4
               }
             },
             {
@@ -835,8 +835,8 @@ Use Ctrl+C to close it
               "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 32,
-                "building": 871
+                "factory": 29,
+                "building": 888
               }
             },
             {
@@ -844,8 +844,8 @@ Use Ctrl+C to close it
               "identifier": "/private/var/www/webpack/webpack-base/node_modules/vue-loader/lib/index.js??vue-loader-options!/private/var/www/webpack/webpack-base/src/app.vue",
               "name": "./src/app.vue",
               "profile": {
-                "factory": 305,
-                "building": 785
+                "factory": 307,
+                "building": 815
               }
             },
             {
@@ -854,7 +854,7 @@ Use Ctrl+C to close it
               "name": "./src/app.vue?vue&type=script&lang=js&",
               "profile": {
                 "factory": 7,
-                "building": 167
+                "building": 170
               }
             },
             {
@@ -862,8 +862,8 @@ Use Ctrl+C to close it
               "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/node_modules/vue-loader/lib/index.js??vue-loader-options!/private/var/www/webpack/webpack-base/src/app.vue?vue&type=script&lang=js&",
               "name": "./node_modules/happypack/loader.js?id=happybabel!./node_modules/babel-loader/lib??ref--4-1!./node_modules/vue-loader/lib??vue-loader-options!./src/app.vue?vue&type=script&lang=js&",
               "profile": {
-                "factory": 1,
-                "building": 566
+                "factory": 2,
+                "building": 561
               }
             },
             {
@@ -872,14 +872,14 @@ Use Ctrl+C to close it
               "name": "./src/vue/test.vue",
               "profile": {
                 "factory": 2,
-                "building": 2,
-                "dependencies": 1
+                "building": 4,
+                "dependencies": 2
               }
             }
           ],
           "profile": {
             "factory": 3,
-            "building": 0
+            "building": 1
           },
           "failed": false,
           "errors": 0,
@@ -949,8 +949,8 @@ Use Ctrl+C to close it
               "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
               "name": "multi ./src/index.js",
               "profile": {
-                "factory": 0,
-                "building": 5
+                "factory": 1,
+                "building": 4
               }
             },
             {
@@ -958,8 +958,8 @@ Use Ctrl+C to close it
               "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 32,
-                "building": 871
+                "factory": 29,
+                "building": 888
               }
             },
             {
@@ -967,8 +967,8 @@ Use Ctrl+C to close it
               "identifier": "/private/var/www/webpack/webpack-base/node_modules/vue-loader/lib/index.js??vue-loader-options!/private/var/www/webpack/webpack-base/src/app.vue",
               "name": "./src/app.vue",
               "profile": {
-                "factory": 305,
-                "building": 785
+                "factory": 307,
+                "building": 815
               }
             },
             {
@@ -977,13 +977,13 @@ Use Ctrl+C to close it
               "name": "./src/app.vue?vue&type=template&id=5ef48958&scoped=true&",
               "profile": {
                 "factory": 7,
-                "building": 167
+                "building": 170
               }
             }
           ],
           "profile": {
             "factory": 18,
-            "building": 136
+            "building": 137
           },
           "failed": false,
           "errors": 0,
@@ -1044,8 +1044,8 @@ Use Ctrl+C to close it
               "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
               "name": "multi ./src/index.js",
               "profile": {
-                "factory": 0,
-                "building": 5
+                "factory": 1,
+                "building": 4
               }
             },
             {
@@ -1053,8 +1053,8 @@ Use Ctrl+C to close it
               "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 32,
-                "building": 871
+                "factory": 29,
+                "building": 888
               }
             },
             {
@@ -1062,8 +1062,8 @@ Use Ctrl+C to close it
               "identifier": "/private/var/www/webpack/webpack-base/node_modules/vue-loader/lib/index.js??vue-loader-options!/private/var/www/webpack/webpack-base/src/app.vue",
               "name": "./src/app.vue",
               "profile": {
-                "factory": 305,
-                "building": 785
+                "factory": 307,
+                "building": 815
               }
             },
             {
@@ -1072,7 +1072,7 @@ Use Ctrl+C to close it
               "name": "./src/app.vue?vue&type=script&lang=js&",
               "profile": {
                 "factory": 7,
-                "building": 167
+                "building": 170
               }
             },
             {
@@ -1080,8 +1080,8 @@ Use Ctrl+C to close it
               "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/node_modules/vue-loader/lib/index.js??vue-loader-options!/private/var/www/webpack/webpack-base/src/app.vue?vue&type=script&lang=js&",
               "name": "./node_modules/happypack/loader.js?id=happybabel!./node_modules/babel-loader/lib??ref--4-1!./node_modules/vue-loader/lib??vue-loader-options!./src/app.vue?vue&type=script&lang=js&",
               "profile": {
-                "factory": 1,
-                "building": 566
+                "factory": 2,
+                "building": 561
               }
             },
             {
@@ -1090,8 +1090,8 @@ Use Ctrl+C to close it
               "name": "./src/vue/test.vue",
               "profile": {
                 "factory": 2,
-                "building": 2,
-                "dependencies": 1
+                "building": 4,
+                "dependencies": 2
               }
             },
             {
@@ -1100,13 +1100,13 @@ Use Ctrl+C to close it
               "name": "./src/vue/test.vue?vue&type=template&id=51fd5a58&scoped=true&",
               "profile": {
                 "factory": 3,
-                "building": 0
+                "building": 1
               }
             }
           ],
           "profile": {
             "factory": 3,
-            "building": 17
+            "building": 16
           },
           "failed": false,
           "errors": 0,
@@ -1167,8 +1167,8 @@ Use Ctrl+C to close it
               "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
               "name": "multi ./src/index.js",
               "profile": {
-                "factory": 0,
-                "building": 5
+                "factory": 1,
+                "building": 4
               }
             },
             {
@@ -1176,14 +1176,14 @@ Use Ctrl+C to close it
               "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 32,
-                "building": 871
+                "factory": 29,
+                "building": 888
               }
             }
           ],
           "profile": {
-            "factory": 305,
-            "building": 785
+            "factory": 307,
+            "building": 815
           },
           "failed": false,
           "errors": 0,
@@ -1208,7 +1208,7 @@ Use Ctrl+C to close it
               "moduleName": "./src/index.js",
               "type": "harmony import specifier",
               "userRequest": "./images/a.png",
-              "loc": "14:35-36"
+              "loc": "13:35-36"
             }
           ],
           "usedExports": [
@@ -1224,7 +1224,7 @@ Use Ctrl+C to close it
         {
           "id": 10,
           "identifier": "delegated 2 from dll-reference vendor_libraly",
-          "name": "delegated ./node_modules/vue/dist/vue.runtime.esm.js from dll-reference vendor_libraly",
+          "name": "delegated ../node_modules/vue/dist/vue.runtime.esm.js from dll-reference vendor_libraly",
           "index": 8,
           "index2": 7,
           "size": 42,
@@ -1243,8 +1243,8 @@ Use Ctrl+C to close it
               "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
               "name": "multi ./src/index.js",
               "profile": {
-                "factory": 0,
-                "building": 5
+                "factory": 1,
+                "building": 4
               }
             },
             {
@@ -1252,14 +1252,14 @@ Use Ctrl+C to close it
               "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 32,
-                "building": 871
+                "factory": 29,
+                "building": 888
               }
             }
           ],
           "profile": {
-            "factory": 305,
-            "building": 785
+            "factory": 307,
+            "building": 815
           },
           "failed": false,
           "errors": 0,
@@ -1282,7 +1282,7 @@ Use Ctrl+C to close it
               "moduleName": "./src/index.js",
               "type": "harmony import specifier",
               "userRequest": "vue",
-              "loc": "16:4-7"
+              "loc": "14:4-7"
             }
           ],
           "usedExports": true,
@@ -1315,8 +1315,8 @@ Use Ctrl+C to close it
               "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
               "name": "multi ./src/index.js",
               "profile": {
-                "factory": 0,
-                "building": 5
+                "factory": 1,
+                "building": 4
               }
             },
             {
@@ -1324,14 +1324,14 @@ Use Ctrl+C to close it
               "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 32,
-                "building": 871
+                "factory": 29,
+                "building": 888
               }
             }
           ],
           "profile": {
-            "factory": 305,
-            "building": 785
+            "factory": 307,
+            "building": 815
           },
           "failed": false,
           "errors": 0,
@@ -1354,7 +1354,7 @@ Use Ctrl+C to close it
               "moduleName": "./src/index.js",
               "type": "harmony import specifier",
               "userRequest": "./app.vue",
-              "loc": "18:13-16"
+              "loc": "16:13-16"
             }
           ],
           "usedExports": [
@@ -1390,8 +1390,8 @@ Use Ctrl+C to close it
               "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
               "name": "multi ./src/index.js",
               "profile": {
-                "factory": 0,
-                "building": 5
+                "factory": 1,
+                "building": 4
               }
             },
             {
@@ -1399,8 +1399,8 @@ Use Ctrl+C to close it
               "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 32,
-                "building": 871
+                "factory": 29,
+                "building": 888
               }
             },
             {
@@ -1408,8 +1408,8 @@ Use Ctrl+C to close it
               "identifier": "/private/var/www/webpack/webpack-base/node_modules/vue-loader/lib/index.js??vue-loader-options!/private/var/www/webpack/webpack-base/src/app.vue",
               "name": "./src/app.vue",
               "profile": {
-                "factory": 305,
-                "building": 785
+                "factory": 307,
+                "building": 815
               }
             },
             {
@@ -1418,7 +1418,7 @@ Use Ctrl+C to close it
               "name": "./src/app.vue?vue&type=script&lang=js&",
               "profile": {
                 "factory": 7,
-                "building": 167
+                "building": 170
               }
             },
             {
@@ -1426,15 +1426,15 @@ Use Ctrl+C to close it
               "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/node_modules/vue-loader/lib/index.js??vue-loader-options!/private/var/www/webpack/webpack-base/src/app.vue?vue&type=script&lang=js&",
               "name": "./node_modules/happypack/loader.js?id=happybabel!./node_modules/babel-loader/lib??ref--4-1!./node_modules/vue-loader/lib??vue-loader-options!./src/app.vue?vue&type=script&lang=js&",
               "profile": {
-                "factory": 1,
-                "building": 566
+                "factory": 2,
+                "building": 561
               }
             }
           ],
           "profile": {
             "factory": 2,
-            "building": 2,
-            "dependencies": 1
+            "building": 4,
+            "dependencies": 2
           },
           "failed": false,
           "errors": 0,
@@ -1488,8 +1488,8 @@ Use Ctrl+C to close it
           "issuerName": null,
           "issuerPath": null,
           "profile": {
-            "factory": 0,
-            "building": 5
+            "factory": 1,
+            "building": 4
           },
           "failed": false,
           "errors": 0,
@@ -1515,7 +1515,7 @@ Use Ctrl+C to close it
           "name": "./src/index.js",
           "index": 1,
           "index2": 19,
-          "size": 460,
+          "size": 406,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -1532,14 +1532,14 @@ Use Ctrl+C to close it
               "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
               "name": "multi ./src/index.js",
               "profile": {
-                "factory": 0,
-                "building": 5
+                "factory": 1,
+                "building": 4
               }
             }
           ],
           "profile": {
-            "factory": 32,
-            "building": 871
+            "factory": 29,
+            "building": 888
           },
           "failed": false,
           "errors": 0,
@@ -1560,7 +1560,7 @@ Use Ctrl+C to close it
           "providedExports": [],
           "optimizationBailout": [],
           "depth": 1,
-          "source": "import './less/app.less';\nimport './index.less';\nimport a from './images/a.png';\nimport './app.ts';\nimport Vue from 'vue';\nimport App from './app.vue';\n\nif (module.hot && process.env.NODE_ENV === 'development') {\n  module.hot.accept();\n}\n\nalert(process.env.NODE_ENV);\nconsole.log(process.env.NODE_ENV, 'NODE_ENV');\ndocument.getElementById('a').src = a;\nconsole.log('index.js');\nnew Vue({\n  render: function render(h) {\n    return h(App);\n  }\n}).$mount('#app');"
+          "source": "import './less/app.less';\nimport './index.less';\nimport a from './images/a.png';\nimport './app.ts';\nimport Vue from 'vue';\nimport App from './app.vue';\n\nif (module.hot && process.env.NODE_ENV === 'development') {\n  module.hot.accept();\n}\n\nconsole.log(process.env.NODE_ENV, 'NODE_ENV');\ndocument.getElementById('a').src = a;\nnew Vue({\n  render: function render(h) {\n    return h(App);\n  }\n}).$mount('#app');"
         },
         {
           "id": 15,
@@ -1585,8 +1585,8 @@ Use Ctrl+C to close it
               "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
               "name": "multi ./src/index.js",
               "profile": {
-                "factory": 0,
-                "building": 5
+                "factory": 1,
+                "building": 4
               }
             },
             {
@@ -1594,14 +1594,14 @@ Use Ctrl+C to close it
               "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 32,
-                "building": 871
+                "factory": 29,
+                "building": 888
               }
             }
           ],
           "profile": {
-            "factory": 305,
-            "building": 785
+            "factory": 307,
+            "building": 815
           },
           "failed": false,
           "errors": 0,
@@ -1647,8 +1647,8 @@ Use Ctrl+C to close it
               "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
               "name": "multi ./src/index.js",
               "profile": {
-                "factory": 0,
-                "building": 5
+                "factory": 1,
+                "building": 4
               }
             },
             {
@@ -1656,14 +1656,14 @@ Use Ctrl+C to close it
               "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 32,
-                "building": 871
+                "factory": 29,
+                "building": 888
               }
             }
           ],
           "profile": {
-            "factory": 305,
-            "building": 785
+            "factory": 307,
+            "building": 815
           },
           "failed": false,
           "errors": 0,
@@ -1709,8 +1709,8 @@ Use Ctrl+C to close it
               "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
               "name": "multi ./src/index.js",
               "profile": {
-                "factory": 0,
-                "building": 5
+                "factory": 1,
+                "building": 4
               }
             },
             {
@@ -1718,14 +1718,14 @@ Use Ctrl+C to close it
               "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 32,
-                "building": 871
+                "factory": 29,
+                "building": 888
               }
             }
           ],
           "profile": {
-            "factory": 305,
-            "building": 785
+            "factory": 307,
+            "building": 815
           },
           "failed": false,
           "errors": 0,
@@ -1763,15 +1763,15 @@ Use Ctrl+C to close it
           ],
           "issuer": "delegated 2 from dll-reference vendor_libraly",
           "issuerId": 10,
-          "issuerName": "delegated ./node_modules/vue/dist/vue.runtime.esm.js from dll-reference vendor_libraly",
+          "issuerName": "delegated ../node_modules/vue/dist/vue.runtime.esm.js from dll-reference vendor_libraly",
           "issuerPath": [
             {
               "id": 13,
               "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
               "name": "multi ./src/index.js",
               "profile": {
-                "factory": 0,
-                "building": 5
+                "factory": 1,
+                "building": 4
               }
             },
             {
@@ -1779,17 +1779,17 @@ Use Ctrl+C to close it
               "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 32,
-                "building": 871
+                "factory": 29,
+                "building": 888
               }
             },
             {
               "id": 10,
               "identifier": "delegated 2 from dll-reference vendor_libraly",
-              "name": "delegated ./node_modules/vue/dist/vue.runtime.esm.js from dll-reference vendor_libraly",
+              "name": "delegated ../node_modules/vue/dist/vue.runtime.esm.js from dll-reference vendor_libraly",
               "profile": {
-                "factory": 305,
-                "building": 785
+                "factory": 307,
+                "building": 815
               }
             }
           ],
@@ -1805,8 +1805,8 @@ Use Ctrl+C to close it
             {
               "moduleId": 10,
               "moduleIdentifier": "delegated 2 from dll-reference vendor_libraly",
-              "module": "delegated ./node_modules/vue/dist/vue.runtime.esm.js from dll-reference vendor_libraly",
-              "moduleName": "delegated ./node_modules/vue/dist/vue.runtime.esm.js from dll-reference vendor_libraly",
+              "module": "delegated ../node_modules/vue/dist/vue.runtime.esm.js from dll-reference vendor_libraly",
+              "moduleName": "delegated ../node_modules/vue/dist/vue.runtime.esm.js from dll-reference vendor_libraly",
               "type": "delegated source",
               "userRequest": "dll-reference vendor_libraly"
             }
@@ -1838,8 +1838,8 @@ Use Ctrl+C to close it
               "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
               "name": "multi ./src/index.js",
               "profile": {
-                "factory": 0,
-                "building": 5
+                "factory": 1,
+                "building": 4
               }
             },
             {
@@ -1847,8 +1847,8 @@ Use Ctrl+C to close it
               "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 32,
-                "building": 871
+                "factory": 29,
+                "building": 888
               }
             },
             {
@@ -1856,14 +1856,14 @@ Use Ctrl+C to close it
               "identifier": "/private/var/www/webpack/webpack-base/node_modules/mini-css-extract-plugin/dist/loader.js??ref--2-0!/private/var/www/webpack/webpack-base/node_modules/css-loader/dist/cjs.js!/private/var/www/webpack/webpack-base/node_modules/postcss-loader/src/index.js!/private/var/www/webpack/webpack-base/node_modules/less-loader/dist/cjs.js!/private/var/www/webpack/webpack-base/src/less/app.less",
               "name": "./src/less/app.less",
               "profile": {
-                "factory": 305,
-                "building": 785
+                "factory": 307,
+                "building": 815
               }
             }
           ],
           "profile": {
             "factory": 0,
-            "building": 0
+            "building": 1
           },
           "failed": false,
           "errors": 0,
@@ -1904,8 +1904,8 @@ Use Ctrl+C to close it
               "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
               "name": "multi ./src/index.js",
               "profile": {
-                "factory": 0,
-                "building": 5
+                "factory": 1,
+                "building": 4
               }
             },
             {
@@ -1913,8 +1913,8 @@ Use Ctrl+C to close it
               "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/src/index.js",
               "name": "./src/index.js",
               "profile": {
-                "factory": 32,
-                "building": 871
+                "factory": 29,
+                "building": 888
               }
             },
             {
@@ -1922,14 +1922,14 @@ Use Ctrl+C to close it
               "identifier": "/private/var/www/webpack/webpack-base/node_modules/mini-css-extract-plugin/dist/loader.js??ref--2-0!/private/var/www/webpack/webpack-base/node_modules/css-loader/dist/cjs.js!/private/var/www/webpack/webpack-base/node_modules/postcss-loader/src/index.js!/private/var/www/webpack/webpack-base/node_modules/less-loader/dist/cjs.js!/private/var/www/webpack/webpack-base/src/index.less",
               "name": "./src/index.less",
               "profile": {
-                "factory": 305,
-                "building": 785
+                "factory": 307,
+                "building": 815
               }
             }
           ],
           "profile": {
             "factory": 0,
-            "building": 0
+            "building": 1
           },
           "failed": false,
           "errors": 0,
@@ -1986,8 +1986,8 @@ Use Ctrl+C to close it
           "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
           "name": "multi ./src/index.js",
           "profile": {
-            "factory": 0,
-            "building": 5
+            "factory": 1,
+            "building": 4
           }
         },
         {
@@ -1995,8 +1995,8 @@ Use Ctrl+C to close it
           "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 32,
-            "building": 871
+            "factory": 29,
+            "building": 888
           }
         },
         {
@@ -2004,14 +2004,14 @@ Use Ctrl+C to close it
           "identifier": "/private/var/www/webpack/webpack-base/node_modules/vue-loader/lib/index.js??vue-loader-options!/private/var/www/webpack/webpack-base/src/app.vue",
           "name": "./src/app.vue",
           "profile": {
-            "factory": 305,
-            "building": 785
+            "factory": 307,
+            "building": 815
           }
         }
       ],
       "profile": {
         "factory": 7,
-        "building": 167
+        "building": 170
       },
       "failed": false,
       "errors": 0,
@@ -2088,8 +2088,8 @@ Use Ctrl+C to close it
           "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
           "name": "multi ./src/index.js",
           "profile": {
-            "factory": 0,
-            "building": 5
+            "factory": 1,
+            "building": 4
           }
         },
         {
@@ -2097,8 +2097,8 @@ Use Ctrl+C to close it
           "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 32,
-            "building": 871
+            "factory": 29,
+            "building": 888
           }
         },
         {
@@ -2106,8 +2106,8 @@ Use Ctrl+C to close it
           "identifier": "/private/var/www/webpack/webpack-base/node_modules/vue-loader/lib/index.js??vue-loader-options!/private/var/www/webpack/webpack-base/src/app.vue",
           "name": "./src/app.vue",
           "profile": {
-            "factory": 305,
-            "building": 785
+            "factory": 307,
+            "building": 815
           }
         },
         {
@@ -2116,13 +2116,13 @@ Use Ctrl+C to close it
           "name": "./src/app.vue?vue&type=script&lang=js&",
           "profile": {
             "factory": 7,
-            "building": 167
+            "building": 170
           }
         }
       ],
       "profile": {
-        "factory": 1,
-        "building": 566
+        "factory": 2,
+        "building": 561
       },
       "failed": false,
       "errors": 0,
@@ -2199,8 +2199,8 @@ Use Ctrl+C to close it
           "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
           "name": "multi ./src/index.js",
           "profile": {
-            "factory": 0,
-            "building": 5
+            "factory": 1,
+            "building": 4
           }
         },
         {
@@ -2208,8 +2208,8 @@ Use Ctrl+C to close it
           "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 32,
-            "building": 871
+            "factory": 29,
+            "building": 888
           }
         },
         {
@@ -2217,8 +2217,8 @@ Use Ctrl+C to close it
           "identifier": "/private/var/www/webpack/webpack-base/node_modules/vue-loader/lib/index.js??vue-loader-options!/private/var/www/webpack/webpack-base/src/app.vue",
           "name": "./src/app.vue",
           "profile": {
-            "factory": 305,
-            "building": 785
+            "factory": 307,
+            "building": 815
           }
         },
         {
@@ -2227,7 +2227,7 @@ Use Ctrl+C to close it
           "name": "./src/app.vue?vue&type=script&lang=js&",
           "profile": {
             "factory": 7,
-            "building": 167
+            "building": 170
           }
         },
         {
@@ -2235,8 +2235,8 @@ Use Ctrl+C to close it
           "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/node_modules/vue-loader/lib/index.js??vue-loader-options!/private/var/www/webpack/webpack-base/src/app.vue?vue&type=script&lang=js&",
           "name": "./node_modules/happypack/loader.js?id=happybabel!./node_modules/babel-loader/lib??ref--4-1!./node_modules/vue-loader/lib??vue-loader-options!./src/app.vue?vue&type=script&lang=js&",
           "profile": {
-            "factory": 1,
-            "building": 566
+            "factory": 2,
+            "building": 561
           }
         },
         {
@@ -2245,14 +2245,14 @@ Use Ctrl+C to close it
           "name": "./src/vue/test.vue",
           "profile": {
             "factory": 2,
-            "building": 2,
-            "dependencies": 1
+            "building": 4,
+            "dependencies": 2
           }
         }
       ],
       "profile": {
         "factory": 3,
-        "building": 0
+        "building": 1
       },
       "failed": false,
       "errors": 0,
@@ -2312,7 +2312,7 @@ Use Ctrl+C to close it
       "name": "./node_modules/happypack/loader.js?id=happybabel!./node_modules/babel-loader/lib??ref--4-1!./node_modules/vue-loader/lib??vue-loader-options!./src/vue/test.vue?vue&type=script&lang=js&",
       "index": 19,
       "index2": 12,
-      "size": 258,
+      "size": 250,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -2329,8 +2329,8 @@ Use Ctrl+C to close it
           "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
           "name": "multi ./src/index.js",
           "profile": {
-            "factory": 0,
-            "building": 5
+            "factory": 1,
+            "building": 4
           }
         },
         {
@@ -2338,8 +2338,8 @@ Use Ctrl+C to close it
           "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 32,
-            "building": 871
+            "factory": 29,
+            "building": 888
           }
         },
         {
@@ -2347,8 +2347,8 @@ Use Ctrl+C to close it
           "identifier": "/private/var/www/webpack/webpack-base/node_modules/vue-loader/lib/index.js??vue-loader-options!/private/var/www/webpack/webpack-base/src/app.vue",
           "name": "./src/app.vue",
           "profile": {
-            "factory": 305,
-            "building": 785
+            "factory": 307,
+            "building": 815
           }
         },
         {
@@ -2357,7 +2357,7 @@ Use Ctrl+C to close it
           "name": "./src/app.vue?vue&type=script&lang=js&",
           "profile": {
             "factory": 7,
-            "building": 167
+            "building": 170
           }
         },
         {
@@ -2365,8 +2365,8 @@ Use Ctrl+C to close it
           "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/node_modules/vue-loader/lib/index.js??vue-loader-options!/private/var/www/webpack/webpack-base/src/app.vue?vue&type=script&lang=js&",
           "name": "./node_modules/happypack/loader.js?id=happybabel!./node_modules/babel-loader/lib??ref--4-1!./node_modules/vue-loader/lib??vue-loader-options!./src/app.vue?vue&type=script&lang=js&",
           "profile": {
-            "factory": 1,
-            "building": 566
+            "factory": 2,
+            "building": 561
           }
         },
         {
@@ -2375,8 +2375,8 @@ Use Ctrl+C to close it
           "name": "./src/vue/test.vue",
           "profile": {
             "factory": 2,
-            "building": 2,
-            "dependencies": 1
+            "building": 4,
+            "dependencies": 2
           }
         },
         {
@@ -2385,13 +2385,13 @@ Use Ctrl+C to close it
           "name": "./src/vue/test.vue?vue&type=script&lang=js&",
           "profile": {
             "factory": 3,
-            "building": 0
+            "building": 1
           }
         }
       ],
       "profile": {
         "factory": 1,
-        "building": 564
+        "building": 562
       },
       "failed": false,
       "errors": 0,
@@ -2443,7 +2443,7 @@ Use Ctrl+C to close it
       ],
       "optimizationBailout": [],
       "depth": 7,
-      "source": "//\n//\n//\n//\n//\n//\nexport default {\n  components: {},\n  props: {},\n  data: function data() {\n    return {\n      title: 'Test vue 123'\n    };\n  },\n  created: function created() {},\n  mounted: function mounted() {},\n  computed: {},\n  methods: {},\n  watch: {}\n};"
+      "source": "//\n//\n//\n//\n//\n//\nexport default {\n  components: {},\n  props: {},\n  data: function data() {\n    return {\n      title: 'Test'\n    };\n  },\n  created: function created() {},\n  mounted: function mounted() {},\n  computed: {},\n  methods: {},\n  watch: {}\n};"
     },
     {
       "id": 4,
@@ -2468,8 +2468,8 @@ Use Ctrl+C to close it
           "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
           "name": "multi ./src/index.js",
           "profile": {
-            "factory": 0,
-            "building": 5
+            "factory": 1,
+            "building": 4
           }
         },
         {
@@ -2477,8 +2477,8 @@ Use Ctrl+C to close it
           "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 32,
-            "building": 871
+            "factory": 29,
+            "building": 888
           }
         },
         {
@@ -2486,14 +2486,14 @@ Use Ctrl+C to close it
           "identifier": "/private/var/www/webpack/webpack-base/node_modules/vue-loader/lib/index.js??vue-loader-options!/private/var/www/webpack/webpack-base/src/app.vue",
           "name": "./src/app.vue",
           "profile": {
-            "factory": 305,
-            "building": 785
+            "factory": 307,
+            "building": 815
           }
         }
       ],
       "profile": {
         "factory": 7,
-        "building": 167
+        "building": 170
       },
       "failed": false,
       "errors": 0,
@@ -2570,8 +2570,8 @@ Use Ctrl+C to close it
           "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
           "name": "multi ./src/index.js",
           "profile": {
-            "factory": 0,
-            "building": 5
+            "factory": 1,
+            "building": 4
           }
         },
         {
@@ -2579,8 +2579,8 @@ Use Ctrl+C to close it
           "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 32,
-            "building": 871
+            "factory": 29,
+            "building": 888
           }
         },
         {
@@ -2588,14 +2588,14 @@ Use Ctrl+C to close it
           "identifier": "/private/var/www/webpack/webpack-base/node_modules/vue-loader/lib/index.js??vue-loader-options!/private/var/www/webpack/webpack-base/src/app.vue",
           "name": "./src/app.vue",
           "profile": {
-            "factory": 305,
-            "building": 785
+            "factory": 307,
+            "building": 815
           }
         }
       ],
       "profile": {
         "factory": 7,
-        "building": 167
+        "building": 170
       },
       "failed": false,
       "errors": 0,
@@ -2665,8 +2665,8 @@ Use Ctrl+C to close it
           "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
           "name": "multi ./src/index.js",
           "profile": {
-            "factory": 0,
-            "building": 5
+            "factory": 1,
+            "building": 4
           }
         },
         {
@@ -2674,8 +2674,8 @@ Use Ctrl+C to close it
           "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 32,
-            "building": 871
+            "factory": 29,
+            "building": 888
           }
         },
         {
@@ -2683,8 +2683,8 @@ Use Ctrl+C to close it
           "identifier": "/private/var/www/webpack/webpack-base/node_modules/vue-loader/lib/index.js??vue-loader-options!/private/var/www/webpack/webpack-base/src/app.vue",
           "name": "./src/app.vue",
           "profile": {
-            "factory": 305,
-            "building": 785
+            "factory": 307,
+            "building": 815
           }
         },
         {
@@ -2693,7 +2693,7 @@ Use Ctrl+C to close it
           "name": "./src/app.vue?vue&type=script&lang=js&",
           "profile": {
             "factory": 7,
-            "building": 167
+            "building": 170
           }
         },
         {
@@ -2701,8 +2701,8 @@ Use Ctrl+C to close it
           "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/node_modules/vue-loader/lib/index.js??vue-loader-options!/private/var/www/webpack/webpack-base/src/app.vue?vue&type=script&lang=js&",
           "name": "./node_modules/happypack/loader.js?id=happybabel!./node_modules/babel-loader/lib??ref--4-1!./node_modules/vue-loader/lib??vue-loader-options!./src/app.vue?vue&type=script&lang=js&",
           "profile": {
-            "factory": 1,
-            "building": 566
+            "factory": 2,
+            "building": 561
           }
         },
         {
@@ -2711,14 +2711,14 @@ Use Ctrl+C to close it
           "name": "./src/vue/test.vue",
           "profile": {
             "factory": 2,
-            "building": 2,
-            "dependencies": 1
+            "building": 4,
+            "dependencies": 2
           }
         }
       ],
       "profile": {
         "factory": 3,
-        "building": 0
+        "building": 1
       },
       "failed": false,
       "errors": 0,
@@ -2788,8 +2788,8 @@ Use Ctrl+C to close it
           "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
           "name": "multi ./src/index.js",
           "profile": {
-            "factory": 0,
-            "building": 5
+            "factory": 1,
+            "building": 4
           }
         },
         {
@@ -2797,8 +2797,8 @@ Use Ctrl+C to close it
           "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 32,
-            "building": 871
+            "factory": 29,
+            "building": 888
           }
         },
         {
@@ -2806,8 +2806,8 @@ Use Ctrl+C to close it
           "identifier": "/private/var/www/webpack/webpack-base/node_modules/vue-loader/lib/index.js??vue-loader-options!/private/var/www/webpack/webpack-base/src/app.vue",
           "name": "./src/app.vue",
           "profile": {
-            "factory": 305,
-            "building": 785
+            "factory": 307,
+            "building": 815
           }
         },
         {
@@ -2816,13 +2816,13 @@ Use Ctrl+C to close it
           "name": "./src/app.vue?vue&type=template&id=5ef48958&scoped=true&",
           "profile": {
             "factory": 7,
-            "building": 167
+            "building": 170
           }
         }
       ],
       "profile": {
         "factory": 18,
-        "building": 136
+        "building": 137
       },
       "failed": false,
       "errors": 0,
@@ -2883,8 +2883,8 @@ Use Ctrl+C to close it
           "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
           "name": "multi ./src/index.js",
           "profile": {
-            "factory": 0,
-            "building": 5
+            "factory": 1,
+            "building": 4
           }
         },
         {
@@ -2892,8 +2892,8 @@ Use Ctrl+C to close it
           "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 32,
-            "building": 871
+            "factory": 29,
+            "building": 888
           }
         },
         {
@@ -2901,8 +2901,8 @@ Use Ctrl+C to close it
           "identifier": "/private/var/www/webpack/webpack-base/node_modules/vue-loader/lib/index.js??vue-loader-options!/private/var/www/webpack/webpack-base/src/app.vue",
           "name": "./src/app.vue",
           "profile": {
-            "factory": 305,
-            "building": 785
+            "factory": 307,
+            "building": 815
           }
         },
         {
@@ -2911,7 +2911,7 @@ Use Ctrl+C to close it
           "name": "./src/app.vue?vue&type=script&lang=js&",
           "profile": {
             "factory": 7,
-            "building": 167
+            "building": 170
           }
         },
         {
@@ -2919,8 +2919,8 @@ Use Ctrl+C to close it
           "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/node_modules/vue-loader/lib/index.js??vue-loader-options!/private/var/www/webpack/webpack-base/src/app.vue?vue&type=script&lang=js&",
           "name": "./node_modules/happypack/loader.js?id=happybabel!./node_modules/babel-loader/lib??ref--4-1!./node_modules/vue-loader/lib??vue-loader-options!./src/app.vue?vue&type=script&lang=js&",
           "profile": {
-            "factory": 1,
-            "building": 566
+            "factory": 2,
+            "building": 561
           }
         },
         {
@@ -2929,8 +2929,8 @@ Use Ctrl+C to close it
           "name": "./src/vue/test.vue",
           "profile": {
             "factory": 2,
-            "building": 2,
-            "dependencies": 1
+            "building": 4,
+            "dependencies": 2
           }
         },
         {
@@ -2939,13 +2939,13 @@ Use Ctrl+C to close it
           "name": "./src/vue/test.vue?vue&type=template&id=51fd5a58&scoped=true&",
           "profile": {
             "factory": 3,
-            "building": 0
+            "building": 1
           }
         }
       ],
       "profile": {
         "factory": 3,
-        "building": 17
+        "building": 16
       },
       "failed": false,
       "errors": 0,
@@ -3006,8 +3006,8 @@ Use Ctrl+C to close it
           "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
           "name": "multi ./src/index.js",
           "profile": {
-            "factory": 0,
-            "building": 5
+            "factory": 1,
+            "building": 4
           }
         },
         {
@@ -3015,14 +3015,14 @@ Use Ctrl+C to close it
           "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 32,
-            "building": 871
+            "factory": 29,
+            "building": 888
           }
         }
       ],
       "profile": {
-        "factory": 305,
-        "building": 785
+        "factory": 307,
+        "building": 815
       },
       "failed": false,
       "errors": 0,
@@ -3047,7 +3047,7 @@ Use Ctrl+C to close it
           "moduleName": "./src/index.js",
           "type": "harmony import specifier",
           "userRequest": "./images/a.png",
-          "loc": "14:35-36"
+          "loc": "13:35-36"
         }
       ],
       "usedExports": [
@@ -3063,7 +3063,7 @@ Use Ctrl+C to close it
     {
       "id": 10,
       "identifier": "delegated 2 from dll-reference vendor_libraly",
-      "name": "delegated ./node_modules/vue/dist/vue.runtime.esm.js from dll-reference vendor_libraly",
+      "name": "delegated ../node_modules/vue/dist/vue.runtime.esm.js from dll-reference vendor_libraly",
       "index": 8,
       "index2": 7,
       "size": 42,
@@ -3082,8 +3082,8 @@ Use Ctrl+C to close it
           "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
           "name": "multi ./src/index.js",
           "profile": {
-            "factory": 0,
-            "building": 5
+            "factory": 1,
+            "building": 4
           }
         },
         {
@@ -3091,14 +3091,14 @@ Use Ctrl+C to close it
           "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 32,
-            "building": 871
+            "factory": 29,
+            "building": 888
           }
         }
       ],
       "profile": {
-        "factory": 305,
-        "building": 785
+        "factory": 307,
+        "building": 815
       },
       "failed": false,
       "errors": 0,
@@ -3121,7 +3121,7 @@ Use Ctrl+C to close it
           "moduleName": "./src/index.js",
           "type": "harmony import specifier",
           "userRequest": "vue",
-          "loc": "16:4-7"
+          "loc": "14:4-7"
         }
       ],
       "usedExports": true,
@@ -3154,8 +3154,8 @@ Use Ctrl+C to close it
           "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
           "name": "multi ./src/index.js",
           "profile": {
-            "factory": 0,
-            "building": 5
+            "factory": 1,
+            "building": 4
           }
         },
         {
@@ -3163,14 +3163,14 @@ Use Ctrl+C to close it
           "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 32,
-            "building": 871
+            "factory": 29,
+            "building": 888
           }
         }
       ],
       "profile": {
-        "factory": 305,
-        "building": 785
+        "factory": 307,
+        "building": 815
       },
       "failed": false,
       "errors": 0,
@@ -3193,7 +3193,7 @@ Use Ctrl+C to close it
           "moduleName": "./src/index.js",
           "type": "harmony import specifier",
           "userRequest": "./app.vue",
-          "loc": "18:13-16"
+          "loc": "16:13-16"
         }
       ],
       "usedExports": [
@@ -3229,8 +3229,8 @@ Use Ctrl+C to close it
           "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
           "name": "multi ./src/index.js",
           "profile": {
-            "factory": 0,
-            "building": 5
+            "factory": 1,
+            "building": 4
           }
         },
         {
@@ -3238,8 +3238,8 @@ Use Ctrl+C to close it
           "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 32,
-            "building": 871
+            "factory": 29,
+            "building": 888
           }
         },
         {
@@ -3247,8 +3247,8 @@ Use Ctrl+C to close it
           "identifier": "/private/var/www/webpack/webpack-base/node_modules/vue-loader/lib/index.js??vue-loader-options!/private/var/www/webpack/webpack-base/src/app.vue",
           "name": "./src/app.vue",
           "profile": {
-            "factory": 305,
-            "building": 785
+            "factory": 307,
+            "building": 815
           }
         },
         {
@@ -3257,7 +3257,7 @@ Use Ctrl+C to close it
           "name": "./src/app.vue?vue&type=script&lang=js&",
           "profile": {
             "factory": 7,
-            "building": 167
+            "building": 170
           }
         },
         {
@@ -3265,15 +3265,15 @@ Use Ctrl+C to close it
           "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/node_modules/vue-loader/lib/index.js??vue-loader-options!/private/var/www/webpack/webpack-base/src/app.vue?vue&type=script&lang=js&",
           "name": "./node_modules/happypack/loader.js?id=happybabel!./node_modules/babel-loader/lib??ref--4-1!./node_modules/vue-loader/lib??vue-loader-options!./src/app.vue?vue&type=script&lang=js&",
           "profile": {
-            "factory": 1,
-            "building": 566
+            "factory": 2,
+            "building": 561
           }
         }
       ],
       "profile": {
         "factory": 2,
-        "building": 2,
-        "dependencies": 1
+        "building": 4,
+        "dependencies": 2
       },
       "failed": false,
       "errors": 0,
@@ -3327,8 +3327,8 @@ Use Ctrl+C to close it
       "issuerName": null,
       "issuerPath": null,
       "profile": {
-        "factory": 0,
-        "building": 5
+        "factory": 1,
+        "building": 4
       },
       "failed": false,
       "errors": 0,
@@ -3354,7 +3354,7 @@ Use Ctrl+C to close it
       "name": "./src/index.js",
       "index": 1,
       "index2": 19,
-      "size": 460,
+      "size": 406,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -3371,14 +3371,14 @@ Use Ctrl+C to close it
           "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
           "name": "multi ./src/index.js",
           "profile": {
-            "factory": 0,
-            "building": 5
+            "factory": 1,
+            "building": 4
           }
         }
       ],
       "profile": {
-        "factory": 32,
-        "building": 871
+        "factory": 29,
+        "building": 888
       },
       "failed": false,
       "errors": 0,
@@ -3399,7 +3399,7 @@ Use Ctrl+C to close it
       "providedExports": [],
       "optimizationBailout": [],
       "depth": 1,
-      "source": "import './less/app.less';\nimport './index.less';\nimport a from './images/a.png';\nimport './app.ts';\nimport Vue from 'vue';\nimport App from './app.vue';\n\nif (module.hot && process.env.NODE_ENV === 'development') {\n  module.hot.accept();\n}\n\nalert(process.env.NODE_ENV);\nconsole.log(process.env.NODE_ENV, 'NODE_ENV');\ndocument.getElementById('a').src = a;\nconsole.log('index.js');\nnew Vue({\n  render: function render(h) {\n    return h(App);\n  }\n}).$mount('#app');"
+      "source": "import './less/app.less';\nimport './index.less';\nimport a from './images/a.png';\nimport './app.ts';\nimport Vue from 'vue';\nimport App from './app.vue';\n\nif (module.hot && process.env.NODE_ENV === 'development') {\n  module.hot.accept();\n}\n\nconsole.log(process.env.NODE_ENV, 'NODE_ENV');\ndocument.getElementById('a').src = a;\nnew Vue({\n  render: function render(h) {\n    return h(App);\n  }\n}).$mount('#app');"
     },
     {
       "id": 15,
@@ -3424,8 +3424,8 @@ Use Ctrl+C to close it
           "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
           "name": "multi ./src/index.js",
           "profile": {
-            "factory": 0,
-            "building": 5
+            "factory": 1,
+            "building": 4
           }
         },
         {
@@ -3433,14 +3433,14 @@ Use Ctrl+C to close it
           "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 32,
-            "building": 871
+            "factory": 29,
+            "building": 888
           }
         }
       ],
       "profile": {
-        "factory": 305,
-        "building": 785
+        "factory": 307,
+        "building": 815
       },
       "failed": false,
       "errors": 0,
@@ -3486,8 +3486,8 @@ Use Ctrl+C to close it
           "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
           "name": "multi ./src/index.js",
           "profile": {
-            "factory": 0,
-            "building": 5
+            "factory": 1,
+            "building": 4
           }
         },
         {
@@ -3495,14 +3495,14 @@ Use Ctrl+C to close it
           "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 32,
-            "building": 871
+            "factory": 29,
+            "building": 888
           }
         }
       ],
       "profile": {
-        "factory": 305,
-        "building": 785
+        "factory": 307,
+        "building": 815
       },
       "failed": false,
       "errors": 0,
@@ -3548,8 +3548,8 @@ Use Ctrl+C to close it
           "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
           "name": "multi ./src/index.js",
           "profile": {
-            "factory": 0,
-            "building": 5
+            "factory": 1,
+            "building": 4
           }
         },
         {
@@ -3557,14 +3557,14 @@ Use Ctrl+C to close it
           "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 32,
-            "building": 871
+            "factory": 29,
+            "building": 888
           }
         }
       ],
       "profile": {
-        "factory": 305,
-        "building": 785
+        "factory": 307,
+        "building": 815
       },
       "failed": false,
       "errors": 0,
@@ -3602,15 +3602,15 @@ Use Ctrl+C to close it
       ],
       "issuer": "delegated 2 from dll-reference vendor_libraly",
       "issuerId": 10,
-      "issuerName": "delegated ./node_modules/vue/dist/vue.runtime.esm.js from dll-reference vendor_libraly",
+      "issuerName": "delegated ../node_modules/vue/dist/vue.runtime.esm.js from dll-reference vendor_libraly",
       "issuerPath": [
         {
           "id": 13,
           "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
           "name": "multi ./src/index.js",
           "profile": {
-            "factory": 0,
-            "building": 5
+            "factory": 1,
+            "building": 4
           }
         },
         {
@@ -3618,17 +3618,17 @@ Use Ctrl+C to close it
           "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 32,
-            "building": 871
+            "factory": 29,
+            "building": 888
           }
         },
         {
           "id": 10,
           "identifier": "delegated 2 from dll-reference vendor_libraly",
-          "name": "delegated ./node_modules/vue/dist/vue.runtime.esm.js from dll-reference vendor_libraly",
+          "name": "delegated ../node_modules/vue/dist/vue.runtime.esm.js from dll-reference vendor_libraly",
           "profile": {
-            "factory": 305,
-            "building": 785
+            "factory": 307,
+            "building": 815
           }
         }
       ],
@@ -3644,8 +3644,8 @@ Use Ctrl+C to close it
         {
           "moduleId": 10,
           "moduleIdentifier": "delegated 2 from dll-reference vendor_libraly",
-          "module": "delegated ./node_modules/vue/dist/vue.runtime.esm.js from dll-reference vendor_libraly",
-          "moduleName": "delegated ./node_modules/vue/dist/vue.runtime.esm.js from dll-reference vendor_libraly",
+          "module": "delegated ../node_modules/vue/dist/vue.runtime.esm.js from dll-reference vendor_libraly",
+          "moduleName": "delegated ../node_modules/vue/dist/vue.runtime.esm.js from dll-reference vendor_libraly",
           "type": "delegated source",
           "userRequest": "dll-reference vendor_libraly"
         }
@@ -3677,8 +3677,8 @@ Use Ctrl+C to close it
           "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
           "name": "multi ./src/index.js",
           "profile": {
-            "factory": 0,
-            "building": 5
+            "factory": 1,
+            "building": 4
           }
         },
         {
@@ -3686,8 +3686,8 @@ Use Ctrl+C to close it
           "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 32,
-            "building": 871
+            "factory": 29,
+            "building": 888
           }
         },
         {
@@ -3695,14 +3695,14 @@ Use Ctrl+C to close it
           "identifier": "/private/var/www/webpack/webpack-base/node_modules/mini-css-extract-plugin/dist/loader.js??ref--2-0!/private/var/www/webpack/webpack-base/node_modules/css-loader/dist/cjs.js!/private/var/www/webpack/webpack-base/node_modules/postcss-loader/src/index.js!/private/var/www/webpack/webpack-base/node_modules/less-loader/dist/cjs.js!/private/var/www/webpack/webpack-base/src/index.less",
           "name": "./src/index.less",
           "profile": {
-            "factory": 305,
-            "building": 785
+            "factory": 307,
+            "building": 815
           }
         }
       ],
       "profile": {
         "factory": 0,
-        "building": 0
+        "building": 1
       },
       "failed": false,
       "errors": 0,
@@ -3743,8 +3743,8 @@ Use Ctrl+C to close it
           "identifier": "multi /private/var/www/webpack/webpack-base/src/index.js",
           "name": "multi ./src/index.js",
           "profile": {
-            "factory": 0,
-            "building": 5
+            "factory": 1,
+            "building": 4
           }
         },
         {
@@ -3752,8 +3752,8 @@ Use Ctrl+C to close it
           "identifier": "/private/var/www/webpack/webpack-base/node_modules/happypack/loader.js?id=happybabel!/private/var/www/webpack/webpack-base/node_modules/babel-loader/lib/index.js??ref--4-1!/private/var/www/webpack/webpack-base/src/index.js",
           "name": "./src/index.js",
           "profile": {
-            "factory": 32,
-            "building": 871
+            "factory": 29,
+            "building": 888
           }
         },
         {
@@ -3761,14 +3761,14 @@ Use Ctrl+C to close it
           "identifier": "/private/var/www/webpack/webpack-base/node_modules/mini-css-extract-plugin/dist/loader.js??ref--2-0!/private/var/www/webpack/webpack-base/node_modules/css-loader/dist/cjs.js!/private/var/www/webpack/webpack-base/node_modules/postcss-loader/src/index.js!/private/var/www/webpack/webpack-base/node_modules/less-loader/dist/cjs.js!/private/var/www/webpack/webpack-base/src/less/app.less",
           "name": "./src/less/app.less",
           "profile": {
-            "factory": 305,
-            "building": 785
+            "factory": 307,
+            "building": 815
           }
         }
       ],
       "profile": {
         "factory": 0,
-        "building": 0
+        "building": 1
       },
       "failed": false,
       "errors": 0,
@@ -3854,7 +3854,7 @@ Use Ctrl+C to close it
         },
         {
           "name": "vendor/vendor-manifest.json",
-          "size": 513,
+          "size": 518,
           "chunks": [],
           "chunkNames": [],
           "info": {},
@@ -3900,14 +3900,14 @@ Use Ctrl+C to close it
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 1199,
+          "size": 1204,
           "names": [
             "HtmlWebpackPlugin_0"
           ],
           "files": [
             "__child-HtmlWebpackPlugin_0"
           ],
-          "hash": "8f76b776e7ce7b97807e",
+          "hash": "6b495127686602203d32",
           "siblings": [],
           "parents": [],
           "children": [],
@@ -3915,11 +3915,11 @@ Use Ctrl+C to close it
           "modules": [
             {
               "id": 0,
-              "identifier": "/private/var/www/webpack/webpack-base/node_modules/html-webpack-plugin/lib/loader.js!/private/var/www/webpack/webpack-base/node_modules/html-loader/dist/cjs.js??ref--0-0!/private/var/www/webpack/webpack-base/src/index.html",
-              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "identifier": "/private/var/www/webpack/webpack-base/node_modules/html-webpack-plugin/lib/loader.js!/private/var/www/webpack/webpack-base/node_modules/html-loader/dist/cjs.js??ref--0-0!/private/var/www/webpack/webpack-base/public/index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
               "index": 0,
               "index2": 2,
-              "size": 588,
+              "size": 593,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -3932,8 +3932,8 @@ Use Ctrl+C to close it
               "issuerName": null,
               "issuerPath": null,
               "profile": {
-                "factory": 353,
-                "building": 104
+                "factory": 360,
+                "building": 112
               },
               "failed": false,
               "errors": 0,
@@ -3946,7 +3946,7 @@ Use Ctrl+C to close it
                   "module": null,
                   "moduleName": null,
                   "type": "single entry",
-                  "userRequest": "/private/var/www/webpack/webpack-base/node_modules/html-webpack-plugin/lib/loader.js!/private/var/www/webpack/webpack-base/src/index.html",
+                  "userRequest": "/private/var/www/webpack/webpack-base/node_modules/html-webpack-plugin/lib/loader.js!/private/var/www/webpack/webpack-base/public/index.html",
                   "loc": "HtmlWebpackPlugin_0"
                 }
               ],
@@ -3954,7 +3954,7 @@ Use Ctrl+C to close it
               "providedExports": null,
               "optimizationBailout": [],
               "depth": 0,
-              "source": "// Imports\nvar ___HTML_LOADER_GET_SOURCE_FROM_IMPORT___ = require(\"../node_modules/html-loader/dist/runtime/getUrl.js\");\nvar ___HTML_LOADER_IMPORT_0___ = require(\"./images/a.png\");\n// Module\nvar ___HTML_LOADER_REPLACER_0___ = ___HTML_LOADER_GET_SOURCE_FROM_IMPORT___(___HTML_LOADER_IMPORT_0___);\nvar code = \"<!doctype html> <html lang=en> <head> <meta charset=UTF-8> <meta name=viewport content=\\\"width=device-width,initial-scale=1\\\"> </head> <body> <img id=a alt=\\\"\\\"> <img src=\" + ___HTML_LOADER_REPLACER_0___ + \"> <div id=app></div> </body>  </html>\";\n// Exports\nmodule.exports = code;"
+              "source": "// Imports\nvar ___HTML_LOADER_GET_SOURCE_FROM_IMPORT___ = require(\"../node_modules/html-loader/dist/runtime/getUrl.js\");\nvar ___HTML_LOADER_IMPORT_0___ = require(\"../src/images/a.png\");\n// Module\nvar ___HTML_LOADER_REPLACER_0___ = ___HTML_LOADER_GET_SOURCE_FROM_IMPORT___(___HTML_LOADER_IMPORT_0___);\nvar code = \"<!doctype html> <html lang=en> <head> <meta charset=UTF-8> <meta name=viewport content=\\\"width=device-width,initial-scale=1\\\"> </head> <body> <img id=a alt=\\\"\\\"> <img src=\" + ___HTML_LOADER_REPLACER_0___ + \"> <div id=app></div> </body>  </html>\";\n// Exports\nmodule.exports = code;"
             },
             {
               "id": 1,
@@ -3970,23 +3970,23 @@ Use Ctrl+C to close it
               "chunks": [
                 0
               ],
-              "issuer": "/private/var/www/webpack/webpack-base/node_modules/html-webpack-plugin/lib/loader.js!/private/var/www/webpack/webpack-base/node_modules/html-loader/dist/cjs.js??ref--0-0!/private/var/www/webpack/webpack-base/src/index.html",
+              "issuer": "/private/var/www/webpack/webpack-base/node_modules/html-webpack-plugin/lib/loader.js!/private/var/www/webpack/webpack-base/node_modules/html-loader/dist/cjs.js??ref--0-0!/private/var/www/webpack/webpack-base/public/index.html",
               "issuerId": 0,
-              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
               "issuerPath": [
                 {
                   "id": 0,
-                  "identifier": "/private/var/www/webpack/webpack-base/node_modules/html-webpack-plugin/lib/loader.js!/private/var/www/webpack/webpack-base/node_modules/html-loader/dist/cjs.js??ref--0-0!/private/var/www/webpack/webpack-base/src/index.html",
-                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+                  "identifier": "/private/var/www/webpack/webpack-base/node_modules/html-webpack-plugin/lib/loader.js!/private/var/www/webpack/webpack-base/node_modules/html-loader/dist/cjs.js??ref--0-0!/private/var/www/webpack/webpack-base/public/index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
                   "profile": {
-                    "factory": 353,
-                    "building": 104
+                    "factory": 360,
+                    "building": 112
                   }
                 }
               ],
               "profile": {
-                "factory": 11,
-                "building": 57
+                "factory": 9,
+                "building": 54
               },
               "failed": false,
               "errors": 0,
@@ -3995,9 +3995,9 @@ Use Ctrl+C to close it
               "reasons": [
                 {
                   "moduleId": 0,
-                  "moduleIdentifier": "/private/var/www/webpack/webpack-base/node_modules/html-webpack-plugin/lib/loader.js!/private/var/www/webpack/webpack-base/node_modules/html-loader/dist/cjs.js??ref--0-0!/private/var/www/webpack/webpack-base/src/index.html",
-                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
-                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+                  "moduleIdentifier": "/private/var/www/webpack/webpack-base/node_modules/html-webpack-plugin/lib/loader.js!/private/var/www/webpack/webpack-base/node_modules/html-loader/dist/cjs.js??ref--0-0!/private/var/www/webpack/webpack-base/public/index.html",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
                   "type": "cjs require",
                   "userRequest": "../node_modules/html-loader/dist/runtime/getUrl.js",
                   "loc": "2:47-108"
@@ -4023,23 +4023,23 @@ Use Ctrl+C to close it
               "chunks": [
                 0
               ],
-              "issuer": "/private/var/www/webpack/webpack-base/node_modules/html-webpack-plugin/lib/loader.js!/private/var/www/webpack/webpack-base/node_modules/html-loader/dist/cjs.js??ref--0-0!/private/var/www/webpack/webpack-base/src/index.html",
+              "issuer": "/private/var/www/webpack/webpack-base/node_modules/html-webpack-plugin/lib/loader.js!/private/var/www/webpack/webpack-base/node_modules/html-loader/dist/cjs.js??ref--0-0!/private/var/www/webpack/webpack-base/public/index.html",
               "issuerId": 0,
-              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
               "issuerPath": [
                 {
                   "id": 0,
-                  "identifier": "/private/var/www/webpack/webpack-base/node_modules/html-webpack-plugin/lib/loader.js!/private/var/www/webpack/webpack-base/node_modules/html-loader/dist/cjs.js??ref--0-0!/private/var/www/webpack/webpack-base/src/index.html",
-                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+                  "identifier": "/private/var/www/webpack/webpack-base/node_modules/html-webpack-plugin/lib/loader.js!/private/var/www/webpack/webpack-base/node_modules/html-loader/dist/cjs.js??ref--0-0!/private/var/www/webpack/webpack-base/public/index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
                   "profile": {
-                    "factory": 353,
-                    "building": 104
+                    "factory": 360,
+                    "building": 112
                   }
                 }
               ],
               "profile": {
-                "factory": 11,
-                "building": 57
+                "factory": 9,
+                "building": 54
               },
               "failed": false,
               "errors": 0,
@@ -4050,12 +4050,12 @@ Use Ctrl+C to close it
               "reasons": [
                 {
                   "moduleId": 0,
-                  "moduleIdentifier": "/private/var/www/webpack/webpack-base/node_modules/html-webpack-plugin/lib/loader.js!/private/var/www/webpack/webpack-base/node_modules/html-loader/dist/cjs.js??ref--0-0!/private/var/www/webpack/webpack-base/src/index.html",
-                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
-                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+                  "moduleIdentifier": "/private/var/www/webpack/webpack-base/node_modules/html-webpack-plugin/lib/loader.js!/private/var/www/webpack/webpack-base/node_modules/html-loader/dist/cjs.js??ref--0-0!/private/var/www/webpack/webpack-base/public/index.html",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
                   "type": "cjs require",
-                  "userRequest": "./images/a.png",
-                  "loc": "3:33-58"
+                  "userRequest": "../src/images/a.png",
+                  "loc": "3:33-63"
                 }
               ],
               "usedExports": true,
@@ -4074,7 +4074,7 @@ Use Ctrl+C to close it
               "moduleIdentifier": "",
               "moduleName": "",
               "loc": "HtmlWebpackPlugin_0",
-              "request": "/private/var/www/webpack/webpack-base/node_modules/html-webpack-plugin/lib/loader.js!/private/var/www/webpack/webpack-base/src/index.html",
+              "request": "/private/var/www/webpack/webpack-base/node_modules/html-webpack-plugin/lib/loader.js!/private/var/www/webpack/webpack-base/public/index.html",
               "reasons": []
             }
           ]
@@ -4083,11 +4083,11 @@ Use Ctrl+C to close it
       "modules": [
         {
           "id": 0,
-          "identifier": "/private/var/www/webpack/webpack-base/node_modules/html-webpack-plugin/lib/loader.js!/private/var/www/webpack/webpack-base/node_modules/html-loader/dist/cjs.js??ref--0-0!/private/var/www/webpack/webpack-base/src/index.html",
-          "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+          "identifier": "/private/var/www/webpack/webpack-base/node_modules/html-webpack-plugin/lib/loader.js!/private/var/www/webpack/webpack-base/node_modules/html-loader/dist/cjs.js??ref--0-0!/private/var/www/webpack/webpack-base/public/index.html",
+          "name": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
           "index": 0,
           "index2": 2,
-          "size": 588,
+          "size": 593,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -4100,8 +4100,8 @@ Use Ctrl+C to close it
           "issuerName": null,
           "issuerPath": null,
           "profile": {
-            "factory": 353,
-            "building": 104
+            "factory": 360,
+            "building": 112
           },
           "failed": false,
           "errors": 0,
@@ -4114,7 +4114,7 @@ Use Ctrl+C to close it
               "module": null,
               "moduleName": null,
               "type": "single entry",
-              "userRequest": "/private/var/www/webpack/webpack-base/node_modules/html-webpack-plugin/lib/loader.js!/private/var/www/webpack/webpack-base/src/index.html",
+              "userRequest": "/private/var/www/webpack/webpack-base/node_modules/html-webpack-plugin/lib/loader.js!/private/var/www/webpack/webpack-base/public/index.html",
               "loc": "HtmlWebpackPlugin_0"
             }
           ],
@@ -4122,7 +4122,7 @@ Use Ctrl+C to close it
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 0,
-          "source": "// Imports\nvar ___HTML_LOADER_GET_SOURCE_FROM_IMPORT___ = require(\"../node_modules/html-loader/dist/runtime/getUrl.js\");\nvar ___HTML_LOADER_IMPORT_0___ = require(\"./images/a.png\");\n// Module\nvar ___HTML_LOADER_REPLACER_0___ = ___HTML_LOADER_GET_SOURCE_FROM_IMPORT___(___HTML_LOADER_IMPORT_0___);\nvar code = \"<!doctype html> <html lang=en> <head> <meta charset=UTF-8> <meta name=viewport content=\\\"width=device-width,initial-scale=1\\\"> </head> <body> <img id=a alt=\\\"\\\"> <img src=\" + ___HTML_LOADER_REPLACER_0___ + \"> <div id=app></div> </body>  </html>\";\n// Exports\nmodule.exports = code;"
+          "source": "// Imports\nvar ___HTML_LOADER_GET_SOURCE_FROM_IMPORT___ = require(\"../node_modules/html-loader/dist/runtime/getUrl.js\");\nvar ___HTML_LOADER_IMPORT_0___ = require(\"../src/images/a.png\");\n// Module\nvar ___HTML_LOADER_REPLACER_0___ = ___HTML_LOADER_GET_SOURCE_FROM_IMPORT___(___HTML_LOADER_IMPORT_0___);\nvar code = \"<!doctype html> <html lang=en> <head> <meta charset=UTF-8> <meta name=viewport content=\\\"width=device-width,initial-scale=1\\\"> </head> <body> <img id=a alt=\\\"\\\"> <img src=\" + ___HTML_LOADER_REPLACER_0___ + \"> <div id=app></div> </body>  </html>\";\n// Exports\nmodule.exports = code;"
         },
         {
           "id": 1,
@@ -4138,23 +4138,23 @@ Use Ctrl+C to close it
           "chunks": [
             0
           ],
-          "issuer": "/private/var/www/webpack/webpack-base/node_modules/html-webpack-plugin/lib/loader.js!/private/var/www/webpack/webpack-base/node_modules/html-loader/dist/cjs.js??ref--0-0!/private/var/www/webpack/webpack-base/src/index.html",
+          "issuer": "/private/var/www/webpack/webpack-base/node_modules/html-webpack-plugin/lib/loader.js!/private/var/www/webpack/webpack-base/node_modules/html-loader/dist/cjs.js??ref--0-0!/private/var/www/webpack/webpack-base/public/index.html",
           "issuerId": 0,
-          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
           "issuerPath": [
             {
               "id": 0,
-              "identifier": "/private/var/www/webpack/webpack-base/node_modules/html-webpack-plugin/lib/loader.js!/private/var/www/webpack/webpack-base/node_modules/html-loader/dist/cjs.js??ref--0-0!/private/var/www/webpack/webpack-base/src/index.html",
-              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "identifier": "/private/var/www/webpack/webpack-base/node_modules/html-webpack-plugin/lib/loader.js!/private/var/www/webpack/webpack-base/node_modules/html-loader/dist/cjs.js??ref--0-0!/private/var/www/webpack/webpack-base/public/index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
               "profile": {
-                "factory": 353,
-                "building": 104
+                "factory": 360,
+                "building": 112
               }
             }
           ],
           "profile": {
-            "factory": 11,
-            "building": 57
+            "factory": 9,
+            "building": 54
           },
           "failed": false,
           "errors": 0,
@@ -4163,9 +4163,9 @@ Use Ctrl+C to close it
           "reasons": [
             {
               "moduleId": 0,
-              "moduleIdentifier": "/private/var/www/webpack/webpack-base/node_modules/html-webpack-plugin/lib/loader.js!/private/var/www/webpack/webpack-base/node_modules/html-loader/dist/cjs.js??ref--0-0!/private/var/www/webpack/webpack-base/src/index.html",
-              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
-              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "moduleIdentifier": "/private/var/www/webpack/webpack-base/node_modules/html-webpack-plugin/lib/loader.js!/private/var/www/webpack/webpack-base/node_modules/html-loader/dist/cjs.js??ref--0-0!/private/var/www/webpack/webpack-base/public/index.html",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
               "type": "cjs require",
               "userRequest": "../node_modules/html-loader/dist/runtime/getUrl.js",
               "loc": "2:47-108"
@@ -4191,23 +4191,23 @@ Use Ctrl+C to close it
           "chunks": [
             0
           ],
-          "issuer": "/private/var/www/webpack/webpack-base/node_modules/html-webpack-plugin/lib/loader.js!/private/var/www/webpack/webpack-base/node_modules/html-loader/dist/cjs.js??ref--0-0!/private/var/www/webpack/webpack-base/src/index.html",
+          "issuer": "/private/var/www/webpack/webpack-base/node_modules/html-webpack-plugin/lib/loader.js!/private/var/www/webpack/webpack-base/node_modules/html-loader/dist/cjs.js??ref--0-0!/private/var/www/webpack/webpack-base/public/index.html",
           "issuerId": 0,
-          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
           "issuerPath": [
             {
               "id": 0,
-              "identifier": "/private/var/www/webpack/webpack-base/node_modules/html-webpack-plugin/lib/loader.js!/private/var/www/webpack/webpack-base/node_modules/html-loader/dist/cjs.js??ref--0-0!/private/var/www/webpack/webpack-base/src/index.html",
-              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "identifier": "/private/var/www/webpack/webpack-base/node_modules/html-webpack-plugin/lib/loader.js!/private/var/www/webpack/webpack-base/node_modules/html-loader/dist/cjs.js??ref--0-0!/private/var/www/webpack/webpack-base/public/index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
               "profile": {
-                "factory": 353,
-                "building": 104
+                "factory": 360,
+                "building": 112
               }
             }
           ],
           "profile": {
-            "factory": 11,
-            "building": 57
+            "factory": 9,
+            "building": 54
           },
           "failed": false,
           "errors": 0,
@@ -4218,12 +4218,12 @@ Use Ctrl+C to close it
           "reasons": [
             {
               "moduleId": 0,
-              "moduleIdentifier": "/private/var/www/webpack/webpack-base/node_modules/html-webpack-plugin/lib/loader.js!/private/var/www/webpack/webpack-base/node_modules/html-loader/dist/cjs.js??ref--0-0!/private/var/www/webpack/webpack-base/src/index.html",
-              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
-              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "moduleIdentifier": "/private/var/www/webpack/webpack-base/node_modules/html-webpack-plugin/lib/loader.js!/private/var/www/webpack/webpack-base/node_modules/html-loader/dist/cjs.js??ref--0-0!/private/var/www/webpack/webpack-base/public/index.html",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
               "type": "cjs require",
-              "userRequest": "./images/a.png",
-              "loc": "3:33-58"
+              "userRequest": "../src/images/a.png",
+              "loc": "3:33-63"
             }
           ],
           "usedExports": true,
@@ -4281,7 +4281,7 @@ Use Ctrl+C to close it
       "assets": [
         {
           "name": "vendor/vendor-manifest.json",
-          "size": 513,
+          "size": 518,
           "chunks": [],
           "chunkNames": [],
           "info": {},
@@ -4359,8 +4359,8 @@ Use Ctrl+C to close it
               "issuerName": null,
               "issuerPath": null,
               "profile": {
-                "factory": 5,
-                "building": 749
+                "factory": 6,
+                "building": 778
               },
               "failed": false,
               "errors": 0,
@@ -4406,14 +4406,14 @@ Use Ctrl+C to close it
                   "identifier": "/private/var/www/webpack/webpack-base/node_modules/css-loader/dist/cjs.js!/private/var/www/webpack/webpack-base/node_modules/postcss-loader/src/index.js!/private/var/www/webpack/webpack-base/node_modules/less-loader/dist/cjs.js!/private/var/www/webpack/webpack-base/src/index.less",
                   "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src!./node_modules/less-loader/dist/cjs.js!./src/index.less",
                   "profile": {
-                    "factory": 5,
-                    "building": 749
+                    "factory": 6,
+                    "building": 778
                   }
                 }
               ],
               "profile": {
                 "factory": 1,
-                "building": 12
+                "building": 4
               },
               "failed": false,
               "errors": 0,
@@ -4470,8 +4470,8 @@ Use Ctrl+C to close it
           "issuerName": null,
           "issuerPath": null,
           "profile": {
-            "factory": 5,
-            "building": 749
+            "factory": 6,
+            "building": 778
           },
           "failed": false,
           "errors": 0,
@@ -4517,14 +4517,14 @@ Use Ctrl+C to close it
               "identifier": "/private/var/www/webpack/webpack-base/node_modules/css-loader/dist/cjs.js!/private/var/www/webpack/webpack-base/node_modules/postcss-loader/src/index.js!/private/var/www/webpack/webpack-base/node_modules/less-loader/dist/cjs.js!/private/var/www/webpack/webpack-base/src/index.less",
               "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src!./node_modules/less-loader/dist/cjs.js!./src/index.less",
               "profile": {
-                "factory": 5,
-                "building": 749
+                "factory": 6,
+                "building": 778
               }
             }
           ],
           "profile": {
             "factory": 1,
-            "building": 12
+            "building": 4
           },
           "failed": false,
           "errors": 0,
@@ -4594,7 +4594,7 @@ Use Ctrl+C to close it
       "assets": [
         {
           "name": "vendor/vendor-manifest.json",
-          "size": 513,
+          "size": 518,
           "chunks": [],
           "chunkNames": [],
           "info": {},
@@ -4672,8 +4672,8 @@ Use Ctrl+C to close it
               "issuerName": null,
               "issuerPath": null,
               "profile": {
-                "factory": 84,
-                "building": 676
+                "factory": 86,
+                "building": 715
               },
               "failed": false,
               "errors": 0,
@@ -4719,14 +4719,14 @@ Use Ctrl+C to close it
                   "identifier": "/private/var/www/webpack/webpack-base/node_modules/css-loader/dist/cjs.js!/private/var/www/webpack/webpack-base/node_modules/postcss-loader/src/index.js!/private/var/www/webpack/webpack-base/node_modules/less-loader/dist/cjs.js!/private/var/www/webpack/webpack-base/src/less/app.less",
                   "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src!./node_modules/less-loader/dist/cjs.js!./src/less/app.less",
                   "profile": {
-                    "factory": 84,
-                    "building": 676
+                    "factory": 86,
+                    "building": 715
                   }
                 }
               ],
               "profile": {
-                "factory": 0,
-                "building": 9
+                "factory": 1,
+                "building": 4
               },
               "failed": false,
               "errors": 0,
@@ -4783,8 +4783,8 @@ Use Ctrl+C to close it
           "issuerName": null,
           "issuerPath": null,
           "profile": {
-            "factory": 84,
-            "building": 676
+            "factory": 86,
+            "building": 715
           },
           "failed": false,
           "errors": 0,
@@ -4830,14 +4830,14 @@ Use Ctrl+C to close it
               "identifier": "/private/var/www/webpack/webpack-base/node_modules/css-loader/dist/cjs.js!/private/var/www/webpack/webpack-base/node_modules/postcss-loader/src/index.js!/private/var/www/webpack/webpack-base/node_modules/less-loader/dist/cjs.js!/private/var/www/webpack/webpack-base/src/less/app.less",
               "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src!./node_modules/less-loader/dist/cjs.js!./src/less/app.less",
               "profile": {
-                "factory": 84,
-                "building": 676
+                "factory": 86,
+                "building": 715
               }
             }
           ],
           "profile": {
-            "factory": 0,
-            "building": 9
+            "factory": 1,
+            "building": 4
           },
           "failed": false,
           "errors": 0,

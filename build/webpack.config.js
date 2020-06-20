@@ -8,18 +8,19 @@ const happyThreadPool = HappyPack.ThreadPool({ size: os.cpus().length });// 构�
 const vueLoaderPlugin = require('vue-loader/lib/plugin'); // 解析vue文件
 const CopyWebpackPlugin = require('copy-webpack-plugin'); // 拷贝
 const AddAssetHtmlPlugin = require('add-asset-html-webpack-plugin'); // 动态注入js(如: dll.js)
-const { publicPath, isDev, devtool } = require('./webpack.options.js');
+const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin'); // 编译的提示插件
+const { publicPath, isDev, devtool } = require('./options.js');
 
 module.exports = (env, argv) => {
   const NODE_ENV = env.dev; // 环境变量：https://www.webpackjs.com/guides/environment-variables/
 
   return {
     mode: publicPath[NODE_ENV], // 开发环境
-    entry: [path.resolve(__dirname, 'src/index.js')], // 入口文件， @babel/polyfill
+    entry: [path.resolve(__dirname, '../src/index.js')], // 入口文件， @babel/polyfill
     devtool: devtool[NODE_ENV],
     output: {
       filename: 'js/[name].[hash].js', // 「入口分块(entry chunk)」的文件名模板
-      path: path.resolve(__dirname, 'dist'),  // 打包后的目录
+      path: path.resolve(__dirname, '../dist'),  // 打包后的目录
       publicPath: publicPath[NODE_ENV], // 输出解析文件的目录，url 相对于 HTML 页面
       chunkFilename: '[name][chunkhash].js', //按需加载名称
     },
@@ -27,7 +28,7 @@ module.exports = (env, argv) => {
       extensions: ['.ts', '.js', '.vue'],
       alias: {
         'vue$': 'vue/dist/vue.runtime.esm.js',
-        '@': path.resolve(__dirname, 'src'),
+        '@': path.resolve(__dirname, '../src'),
       }
     },
     plugins: [
@@ -57,19 +58,20 @@ module.exports = (env, argv) => {
         ]
       }),
       new AddAssetHtmlPlugin({
-        filepath: path.resolve(__dirname, 'vendor/*.js'),
+        filepath: path.resolve(__dirname, '../vendor/*.js'),
         outputPath: 'vendor',
         publicPath: `${publicPath[NODE_ENV]}vendor`
       }),
       new HtmlWebpackPlugin({
         title: 'template',
-        template: path.resolve(__dirname, 'src/index.html'), //源html
+        template: path.resolve(__dirname, '../public/index.html'), //源html
         filename: 'index.html', // index.[contenthash].html  // hash
-        hash: false, //BOOLEN,为静态资源生成hash值 <script src="./main.3e7b9a06.js?3e7b9a0600f176323a6b"></script>
+        hash: false, //BOOLEN,为静态资源生成hash值
         inject: 'body', // 注入到html
         showErrors: true, //展示错误
         minify: true, //压缩html
       }),
+      new FriendlyErrorsWebpackPlugin(),
     ],
     module: {
       rules: [
@@ -84,9 +86,7 @@ module.exports = (env, argv) => {
                     {
                       // Tag name
                       tag: 'img',
-                      // Attribute name
                       attribute: 'src',
-                      // Type of processing, can be `src` or `scrset`
                       type: 'src',
                     },
                   ]
@@ -111,7 +111,7 @@ module.exports = (env, argv) => {
             'css-loader',
             'postcss-loader',
           ],
-          exclude: /node_modules/
+          exclude: path.resolve(__dirname, '../node_modules'), // 排除 node_modules 目录下的文件
         },
         {
           test: /\.less$/,
@@ -126,7 +126,7 @@ module.exports = (env, argv) => {
             'postcss-loader',
             'less-loader'
           ], // 从右向左解析原则
-          exclude: path.resolve(__dirname, 'node_modules'), // 排除 node_modules 目录下的文件
+          exclude: path.resolve(__dirname, '../node_modules'), // 排除 node_modules 目录下的文件
         },
         {
           test: /\.(jpe?g|png|gif)$/i, //图片文件
@@ -144,7 +144,7 @@ module.exports = (env, argv) => {
               }
             }
           ],
-          exclude: /node_modules/
+          exclude: path.resolve(__dirname, '../node_modules'), 
         },
         {
           test: /\.js$/,
@@ -158,11 +158,11 @@ module.exports = (env, argv) => {
                 presets: ['@babel/preset-env']
               }
             }],
-          exclude: /node_modules/
-        },
+            exclude: path.resolve(__dirname, '../node_modules'),
+          },
         {
           test: /\.(ts||tsx)?$/,
-          exclude: /node_modules/,
+          exclude: path.resolve(__dirname, '../node_modules'), 
           use: {
             loader: 'ts-loader',
             options: {
@@ -173,6 +173,7 @@ module.exports = (env, argv) => {
         {
           test: /\.vue$/,
           use: ['vue-loader'],
+          exclude: path.resolve(__dirname, '../node_modules'),
         }
       ]
     },

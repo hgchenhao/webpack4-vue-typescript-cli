@@ -10,7 +10,8 @@ module.exports = (env, argv) => {
       compress: true,
       hot: true,
       hotOnly: true,
-      contentBase: path.join(__dirname, 'dist'),
+      quiet: true, //禁止显示devServer的console信息
+      contentBase: path.join(__dirname, '../dist'),
       overlay: {  // webpack 编译警告或出错时，是否在浏览器显示
         warnings: true, // 显示警告
         errors: true // 显示错误
