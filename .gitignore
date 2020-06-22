@@ -4,6 +4,7 @@ css
 node_modules/
 /path/
 /dist/
+/vendor/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*

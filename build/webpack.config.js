@@ -54,13 +54,13 @@ module.exports = (env, argv) => {
       }),
       new CopyWebpackPlugin({
         patterns: [
-          { from: 'vendor', to: 'vendor' }
+          { from: 'dll', to: 'dll' }
         ]
       }),
       new AddAssetHtmlPlugin({
-        filepath: path.resolve(__dirname, '../vendor/*.js'),
-        outputPath: 'vendor',
-        publicPath: `${publicPath[NODE_ENV]}vendor`
+        filepath: path.resolve(__dirname, '../dll/*.js'),
+        outputPath: 'dll',
+        publicPath: `${publicPath[NODE_ENV]}dll`
       }),
       new HtmlWebpackPlugin({
         title: 'template',

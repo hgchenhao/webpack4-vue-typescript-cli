@@ -57,7 +57,7 @@ module.exports = (env, argv) => {
       new OptimizeCssAssetsPlugin(),
       new DllReferencePlugin({
         context: __dirname,
-        manifest: require('../vendor/vendor-manifest.json'),
+        manifest: require('../dll/vendor-manifest.json'),
       }),
     ]),
   })
