@@ -3,7 +3,7 @@ const WebpackMerge = require('webpack-merge');
 const webpackConfig = require('./webpack.config.js');
 
 const getDevPort = (argv, port = 8099) => {
-  if (argv.parameters) {
+  if (argv.parameters && typeof argv.parameters.split === 'function') {
     const tempArr = argv.parameters.split(':');
 
     return tempArr[0] === 'port' ? tempArr[1] : port
