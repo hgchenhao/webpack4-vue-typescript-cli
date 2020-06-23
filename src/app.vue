@@ -1,29 +1,48 @@
 <template>
   <div class="wrapper">
-    {{ title }}
+    <div @click="handlClick">{{ title }}</div>
     <Test></Test>
   </div>
 </template>
 
-<script>
-import Test from '@/vue/test';
-export default {
+<script lang="ts">
+import Test from '@/vue/test.vue';
+// import {Component, Vue} from 'vue-property-decorator';
+import Vue from 'vue';
+import Component from 'vue-class-component';
+
+@Component({
   components:{
     Test
   },
-  props:{},
-  data(){
-    return {
-      title: 'webpack vue loader',
-    }
-  },
-  created(){},
-  mounted(){},
-  computed:{},
-  methods:{},
-  watch:{},
+})
+
+export default class App extends Vue { 
+  title: string = 'webpack vue'
+  props:{}
+
+  handlClick() {
+    console.log('handlClick')
+  }
+  
+  get title1(): string {
+    return this.title
+  }
+
+  set title1(title: string) {
+     this.title = title
+  }
+
+  created(){
+    console.log('created');
+   
+  }
+
+  mounted() {
+    
+  }
+  watch:{}
 }
 </script>
 <style scoped>
-
 </style>

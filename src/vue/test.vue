@@ -1,25 +1,27 @@
 <template>
   <div class="wrapper">
-     {{ title }}
+    {{title}}
   </div>
 </template>
 
-<script>
-export default {
-  components:{},
-  props:{},
-  data(){
-    return {
-      title: 'Test vue 123'
-    }
-  },
-  created(){},
-  mounted(){},
-  computed:{},
-  methods:{},
-  watch:{},
+<script lang="ts">
+import Vue from 'vue';
+import Component from 'vue-class-component';
+
+@Component()
+export default class Test extends Vue { 
+  title: string = 'Test vue file'
+  props:{}
+
+  created(){
+    console.log('created');
+  }
+
+  mounted() {
+    
+  }
+  watch:{}
 }
 </script>
 <style scoped>
-
 </style>

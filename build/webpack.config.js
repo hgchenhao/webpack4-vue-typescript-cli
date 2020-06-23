@@ -16,7 +16,7 @@ module.exports = (env, argv) => {
 
   return {
     mode: publicPath[NODE_ENV], // 开发环境
-    entry: [path.resolve(__dirname, '../src/index.js')], // 入口文件， @babel/polyfill
+    entry: [path.resolve(__dirname, '../src/index.ts')], // 入口文件， @babel/polyfill
     devtool: devtool[NODE_ENV],
     output: {
       filename: 'js/[name].[hash].js', // 「入口分块(entry chunk)」的文件名模板
