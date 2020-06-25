@@ -8,7 +8,7 @@
     "start": "webpack-dev-server --config ./build/webpack.dev.js --mode=development --env.dev=development --open --progress --parameters",
     "compile": "rm -rf dist && webpack-cli --progress --config ./build/webpack.prod.js --mode=production --env.dev=production --parameters",
     "analyzer": "webpack-cli --progress --config ./build/webpack.prod.js --mode=production --env.dev=production --env.dev=analyzer --profile --json > stats.json",
-    "dll": "webpack --progress --colors --config ./build/webpack.dll.config.js"
+    "dll": "webpack --progress --colors --config ./build/webpack.dll.js"
   },
   "author": "",
   "license": "ISC",
@@ -50,8 +50,10 @@
     "browserslist": "^4.12.0",
     "html-webpack-plugin": "^4.3.0",
     "html-withimg-loader": "^0.1.16",
+    "ts-import-plugin": "^1.6.6",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
-    "vue-property-decorator": "^9.0.0"
+    "vue-property-decorator": "^9.0.0",
+    "vue-router": "^3.3.4"
   }
 }

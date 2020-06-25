@@ -2,6 +2,7 @@
   <div class="wrapper">
     <div @click="handlClick">{{ title }}</div>
     <Test></Test>
+    <router-view />
   </div>
 </template>
 

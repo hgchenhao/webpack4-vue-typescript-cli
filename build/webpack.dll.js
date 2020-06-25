@@ -5,7 +5,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin'); //清空
 module.exports = {
   mode: "production",
   entry: {
-    vendor: ['vue']
+    vendor: ['vue', 'vue-router']
   },
   output: {
     path: path.resolve(__dirname, '../dll'),

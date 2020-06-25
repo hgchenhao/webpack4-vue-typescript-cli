@@ -9,6 +9,7 @@ const vueLoaderPlugin = require('vue-loader/lib/plugin'); // 解析vue文件
 const CopyWebpackPlugin = require('copy-webpack-plugin'); // 拷贝
 const AddAssetHtmlPlugin = require('add-asset-html-webpack-plugin'); // 动态注入js(如: dll.js)
 const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin'); // 编译的提示插件
+const tsImportPluginFactory = require('ts-import-plugin'); // ts 按需加载
 const { publicPath, isDev, devtool } = require('./options.js');
 
 module.exports = (env, argv) => {
@@ -22,7 +23,7 @@ module.exports = (env, argv) => {
       filename: 'js/[name].[hash].js', // 「入口分块(entry chunk)」的文件名模板
       path: path.resolve(__dirname, '../dist'),  // 打包后的目录
       publicPath: publicPath[NODE_ENV], // 输出解析文件的目录，url 相对于 HTML 页面
-      chunkFilename: '[name][chunkhash].js', //按需加载名称
+      chunkFilename: 'js/[name][chunkhash].js', //按需加载名称
     },
     resolve: {
       extensions: ['.ts', '.js', '.vue'],
@@ -166,7 +167,13 @@ module.exports = (env, argv) => {
           use: {
             loader: 'ts-loader',
             options: {
-              transpileOnly: true
+              transpileOnly: true,
+              getCustomTransformers: () => ({
+                before: [ tsImportPluginFactory( /** options */) ]
+              }),
+              compilerOptions: {
+                module: 'es2015'
+              }
             }
           }
         },

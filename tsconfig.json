@@ -14,7 +14,7 @@
       "@/*": ["./src/*"],
       "components/*": ["./src/components/*"],
       "pages/*": ["./src/pages/*"],
-      "router": ["./src/router/index.js"],
+      "router": ["src/router/*"],
       "lib/*": ["./src/lib/*"],
       "util/*": ["./src/util/*"],
       "store/*": ["./src/store/*"],

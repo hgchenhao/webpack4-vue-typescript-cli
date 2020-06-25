@@ -43,6 +43,9 @@ module.exports = (env, argv) => {
           parallel: true,
           sourceMap: false,
           terserOptions: {
+            output: {
+              comments: false,
+            },
             compress: {
               drop_console: true,
               pure_funcs: ['console.log']
