@@ -4,10 +4,10 @@ const WebpackMerge = require('webpack-merge');
 const webpackConfig = require('./webpack.config.js');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin'); // 压缩css
 const TerserPlugin = require('terser-webpack-plugin'); // 压缩js,多线程
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin; // 分析
+const { CleanWebpackPlugin } = require('clean-webpack-plugin'); //清空
 
 const variablePluginsMap = {
-  analyzer: new BundleAnalyzerPlugin()
+  analyzer: require('webpack-bundle-analyzer').BundleAnalyzerPlugin
 }
 
 const filterPlugins = (env) => {
@@ -21,7 +21,7 @@ const filterPlugins = (env) => {
     const variablePlugin = variablePluginsMap[current];
 
     if(typeof variablePlugin !== 'undefined') {
-      prev.push(variablePlugin);
+      prev.push(new variablePlugin);
     }
 
     return prev; 
@@ -57,6 +57,9 @@ module.exports = (env, argv) => {
     },
 
     plugins: filterPlugins(env).concat([
+      new CleanWebpackPlugin({
+        cleanOnceBeforeBuildPatterns: [path.resolve(__dirname, '../dist')]
+      }),
       new OptimizeCssAssetsPlugin(),
       new DllReferencePlugin({
         context: __dirname,
