@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper">
-    {{title}}
+    {{title}} -- {{money| toMoney}}
   </div>
 </template>
 
@@ -11,6 +11,7 @@ import Component from 'vue-class-component';
 @Component()
 export default class Test extends Vue { 
   title: string = 'Test vue file'
+  money: string = '100'
   props:{}
 
   created(){

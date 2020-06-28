@@ -7,12 +7,12 @@ const routes: any[] = [
   {
     path: '/home',
     name: 'home',
-    component: () => import(/* webpackChunkName: "home" */ '@/containers/home.vue'),
+    component: () => import(/* webpackChunkName: "home" */ '@/containers/home/index.vue'),
   },
   {
     path: '/about',
     name: 'about',
-    component: () => import(/* webpackChunkName: "about" */ '@/containers/about.vue'),
+    component: () => import(/* webpackChunkName: "about" */ '@/containers/about/index.vue'),
   }
 ]
 

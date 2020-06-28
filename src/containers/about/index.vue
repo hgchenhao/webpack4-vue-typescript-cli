@@ -5,16 +5,17 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue';
-import Component from 'vue-class-component';
+
+import Component, { mixins } from 'vue-class-component';
+import { Hello } from '@/mixins'
 
 @Component()
-export default class Test extends Vue { 
+export default class Test extends mixins(Hello) { 
   title: string = 'About vue file'
   props:{}
 
   created(){
-    console.log('created');
+    console.log('created', this.mixinName);
   }
 
   mounted() {

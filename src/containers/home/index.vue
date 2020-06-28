@@ -7,6 +7,7 @@
 <script lang="ts">
 import Vue from 'vue';
 import Component from 'vue-class-component';
+import BASE_API from '@/api/common';
 
 @Component()
 export default class Test extends Vue { 
@@ -15,11 +16,19 @@ export default class Test extends Vue {
 
   created(){
     console.log('created');
+    this.getSetting();
   }
 
   mounted() {
     
   }
+
+  getSetting() {
+    BASE_API.settings(res=> {
+      console.log(res);
+    })
+  }
+
   watch:{}
 }
 </script>

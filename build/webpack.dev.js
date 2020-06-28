@@ -1,6 +1,7 @@
 const path = require('path');
 const WebpackMerge = require('webpack-merge');
 const webpackConfig = require('./webpack.config.js');
+const proxyMap = require('./env.js');
 
 const getDevPort = (argv, port = 8099) => {
   if (argv.parameters && typeof argv.parameters.split === 'function') {
@@ -27,6 +28,13 @@ module.exports = (env, argv) => {
         errors: true // 显示错误
       },
       historyApiFallback: true,
+      proxy: {
+        "/api": {
+          target: proxyMap.url,
+          changeOrigin: true,
+          secure: false
+        }
+      }
     },
   })
 }
