@@ -1,16 +1,21 @@
 <template>
   <div class="wrapper">
-    {{title}}
+    {{title}}--{{joinStatus}}-{{isLoading}}
   </div>
 </template>
 
 <script lang="ts">
 
 import Component, { mixins } from 'vue-class-component';
-import { Hello } from '@/mixins'
+import { Hello } from '@/mixins';
+import { State, Action, namespace } from 'vuex-class';
+
+const classroomModel = namespace('classroom');
 
 @Component()
-export default class Test extends mixins(Hello) { 
+export default class Test extends mixins(Hello) {
+  @State('isLoading') isLoading
+  @classroomModel.State((state)=> state.joinStatus) joinStatus
   title: string = 'About vue file'
   props:{}
 
@@ -21,7 +26,6 @@ export default class Test extends mixins(Hello) {
   mounted() {
     
   }
-  watch:{}
 }
 </script>
 <style scoped>

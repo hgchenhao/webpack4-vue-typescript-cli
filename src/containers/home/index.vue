@@ -28,8 +28,6 @@ export default class Test extends Vue {
       console.log(res);
     })
   }
-
-  watch:{}
 }
 </script>
 <style scoped>

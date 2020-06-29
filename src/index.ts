@@ -5,6 +5,7 @@ import router from '@/router';
 import Vue from 'vue';
 import plugins from '@/plugins';
 import filters from '@/filters';
+import store from '@/store';
 
 import App from './app.vue';
 
@@ -18,5 +19,6 @@ Vue.use(plugins)
 
 new Vue({
   router,
+  store,
   render: h=> h(App),
 }).$mount('#app');
