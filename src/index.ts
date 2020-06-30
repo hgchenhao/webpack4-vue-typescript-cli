@@ -9,6 +9,10 @@ import store from '@/store';
 
 import App from './app.vue';
 
+import { Button } from 'vant';
+
+Vue.use(Button);
+
 declare const module: any;
 if(module.hot && process.env.NODE_ENV === 'development'){
   module.hot.accept()
@@ -16,6 +20,8 @@ if(module.hot && process.env.NODE_ENV === 'development'){
 
 Vue.use(plugins)
    .use(filters);
+
+Vue.config.productionTip = false;  
 
 new Vue({
   router,

@@ -2,7 +2,7 @@ const path = require('path');
 const DllReferencePlugin = require('webpack/lib/DllReferencePlugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin'); //html插件
 const MiniCssExtractPlugin = require("mini-css-extract-plugin"); // 从js抽离css模块
-const HappyPack = require('happypack'); // webpack4 已经做了优化了，可以不用使用HappyPack
+const HappyPack = require('happypack'); // webpack4 已经做了优化了，不建议使用HappyPack
 const os = require('os');
 const happyThreadPool = HappyPack.ThreadPool({ size: os.cpus().length });// 构造出共享进程池
 const vueLoaderPlugin = require('vue-loader/lib/plugin'); // 解析vue文件
@@ -33,20 +33,10 @@ module.exports = (env, argv) => {
       }
     },
     plugins: [
-      new HappyPack({
+      new HappyPack({   // https://github.com/amireh/happypack/issues/223
         id: 'happybabel',
         threadPool: happyThreadPool,
         loaders: ['babel-loader?cacheDirectory=true']
-      }),
-      new HappyPack({
-        id: 'happycss',
-        threadPool: happyThreadPool,
-        loaders: [{
-          loader: MiniCssExtractPlugin.loader,
-          options: {
-            hmr: isDev[NODE_ENV], // 只在开发模式中启用热更新
-          }
-        }, 'css-loader']
       }),
       new vueLoaderPlugin(),
       new MiniCssExtractPlugin({
@@ -101,9 +91,6 @@ module.exports = (env, argv) => {
           test: /\.css$/,
           use: [
             {
-              loader: 'happypack/loader?id=happycss',
-            },
-            {
               loader: MiniCssExtractPlugin.loader,
               options: {
                 hmr: isDev[NODE_ENV], // 只在开发模式中启用热更新，https://webpack.js.org/plugins/mini-css-extract-plugin/
@@ -112,7 +99,6 @@ module.exports = (env, argv) => {
             'css-loader',
             'postcss-loader',
           ],
-          exclude: path.resolve(__dirname, '../node_modules'), // 排除 node_modules 目录下的文件
         },
         {
           test: /\.less$/,
@@ -169,7 +155,11 @@ module.exports = (env, argv) => {
             options: {
               transpileOnly: true,
               getCustomTransformers: () => ({
-                before: [ tsImportPluginFactory( /** options */) ]
+                before: [ tsImportPluginFactory({
+                  libraryName: 'vant',
+                  libraryDirectory: 'es',
+                  style: true
+                }) ]
               }),
               compilerOptions: {
                 module: 'es2015'

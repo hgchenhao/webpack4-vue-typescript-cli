@@ -1,9 +1,9 @@
 <template>
   <div class="wrapper">
     {{title}} -- {{money| toMoney}}
-    <div>
-      <button @click="handleClick('home')">home</button>
-      <button @click="handleClick('about')">about</button>
+    <div class="btn-group">
+      <van-button type="primary" @click="handleClick('home')">home</van-button>
+      <van-button type="primary" @click="handleClick('about')">about</van-button>
     </div>
   </div>
 </template>
@@ -40,5 +40,8 @@ export default class Test extends Vue {
   }
 }
 </script>
-<style scoped>
+<style scoped lang="less">
+ .btn-group {
+   margin-bottom: 10px;
+ }
 </style>
