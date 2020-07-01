@@ -1,6 +1,5 @@
 import './less/app.less';
 import './less/index.less';
-import './app.ts';
 import router from '@/router';
 import Vue from 'vue';
 import plugins from '@/plugins';
