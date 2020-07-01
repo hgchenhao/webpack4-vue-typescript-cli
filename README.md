@@ -61,3 +61,9 @@ npm run analyzer
 └── tsconfig.json ----------------- ts配置
 
 ```
+#### TODO
+- 添加单元测试
+- 配置ESLint
+- 配置husky
+- splitChunks抽离公共业务代码
+- 持续优化
