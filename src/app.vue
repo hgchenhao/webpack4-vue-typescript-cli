@@ -7,7 +7,7 @@
 </template>
 
 <script lang="ts">
-import Test from '@/vue/test.vue';
+import Test from '@/demo/test.vue';
 // import {Component, Vue} from 'vue-property-decorator';
 import Vue from 'vue';
 import Component from 'vue-class-component';
@@ -42,7 +42,6 @@ export default class App extends Vue {
   mounted() {
     
   }
-  watch:{}
 }
 </script>
 <style scoped>
