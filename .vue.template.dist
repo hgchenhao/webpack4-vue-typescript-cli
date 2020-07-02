@@ -1,10 +1,6 @@
 <template>
   <div class="wrapper">
-    {{title}} -- {{money| toMoney}}- {{propA}}
-    <div class="btn-group">
-      <van-button type="primary" @click="handleClick('home')">home</van-button>
-      <van-button type="primary" @click="handleClick('about')">about</van-button>
-    </div>
+    {{title}}
   </div>
 </template>
 
@@ -43,7 +39,6 @@ export default class Test extends Vue {
   }
 
   title: string = 'Test vue file'
-  money: string = '100'
   
   // computed
   get title1(): string {
@@ -55,22 +50,15 @@ export default class Test extends Vue {
   }
 
   created(){
-    console.log(this.getterToken, 'getterToken')
-    this.mutationUpdateLoading(true);
-    this.setJoinStatus(true);
   }
 
    // Emit 
   @Emit('click')
-  handleClick(name) {
-    this.$router.push({name})
-
+  handleClick() {
     return '@Emit' // 返回值作为$emit的第二个参数
   }
 }
 </script>
 <style scoped lang="less">
- .btn-group {
-   margin-bottom: 10px;
- }
+
 </style>

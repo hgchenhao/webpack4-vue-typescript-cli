@@ -8,9 +8,7 @@
 
 <script lang="ts">
 import Test from '@/demo/test.vue';
-// import {Component, Vue} from 'vue-property-decorator';
-import Vue from 'vue';
-import Component from 'vue-class-component';
+import { Component, Vue } from 'vue-property-decorator';
 
 @Component({
   components:{

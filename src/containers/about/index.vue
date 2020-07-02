@@ -5,15 +5,14 @@
 </template>
 
 <script lang="ts">
-
-import Component, { mixins } from 'vue-class-component';
+import { Component, Mixins } from 'vue-property-decorator'
 import { Hello } from '@/mixins';
 import { State, Action, namespace } from 'vuex-class';
 
 const classroomModel = namespace('classroom');
 
 @Component()
-export default class Test extends mixins(Hello) {
+export default class Test extends Mixins(Hello) {
   @State('isLoading') isLoading
   @classroomModel.State((state)=> state.joinStatus) joinStatus
   title: string = 'About vue file'

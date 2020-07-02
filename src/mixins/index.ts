@@ -1,6 +1,4 @@
-import Vue from 'vue'
-import Component from 'vue-class-component'
-
+import { Vue, Component } from 'vue-property-decorator'
 @Component
 export class Hello extends Vue {
   mixinName: string = 'from mixins'
