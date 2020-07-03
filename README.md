@@ -18,7 +18,11 @@ cp build/env.js.dist build/env.js
 npm install
 
 # 启动服务
-npm run start or npm run start port:9099
+npm run start 
+
+or
+
+npm run start port:9099  //指定端口号
 ```
 
 浏览器访问 http://localhost:9099
@@ -36,6 +40,13 @@ npm run compile
 
 # 静态资源分析
 npm run analyzer
+
+# 自动生成vue文件 
+npm run generate:vue   //默认在src/containers下
+
+or
+
+npm run generate:vue path:src/demo  // 可指定目录
 ```
 
 ### 目录结构

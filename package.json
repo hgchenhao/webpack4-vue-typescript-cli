@@ -8,7 +8,8 @@
     "start": "webpack-dev-server --config ./build/webpack.dev.js --mode=development --env.dev=development --open --progress --parameters",
     "compile": "webpack-cli --progress --config ./build/webpack.prod.js --mode=production --env.dev=production --parameters",
     "analyzer": "webpack-cli --progress --config ./build/webpack.prod.js --mode=production --env.dev=production --env.dev=analyzer --profile --json > stats.json",
-    "dll": "webpack --progress --colors --config ./build/webpack.dll.js"
+    "dll": "webpack --progress --colors --config ./build/webpack.dll.js",
+    "generate:vue": "node ./scripts/generate-vue/index"
   },
   "author": "",
   "license": "ISC",
@@ -18,6 +19,7 @@
     "add-asset-html-webpack-plugin": "^3.1.3",
     "autoprefixer": "^9.8.0",
     "babel-loader": "^8.1.0",
+    "chalk": "^4.1.0",
     "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^6.0.2",
     "css-loader": "^3.5.3",
