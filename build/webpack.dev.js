@@ -16,6 +16,20 @@ const getDevPort = (argv, port = 8099) => {
 module.exports = (env, argv) => {
 
   return WebpackMerge(webpackConfig(env, argv), {
+    module: {
+      rules: [
+        {
+          test: /\.(vue|ts|js)$/,
+          exclude: /node_modules/,
+          enforce: 'pre',
+          loader: 'eslint-loader',
+          options: {
+            fix: true,
+            emitWarning: false,
+          },
+        }
+      ]
+    },
     devServer: {
       port: getDevPort(argv),
       compress: true,

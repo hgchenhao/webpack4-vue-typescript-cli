@@ -7,40 +7,32 @@
 </template>
 
 <script lang="ts">
-import Test from '@/demo/test.vue';
-import { Component, Vue } from 'vue-property-decorator';
+import Test from '@/demo/test.vue'
+import { Component, Vue } from 'vue-property-decorator'
 
 @Component({
-  components:{
-    Test
+  components: {
+    Test,
   },
 })
-
-export default class App extends Vue { 
-  title: string = 'webpack vue'
-  props:{}
+export default class App extends Vue {
+  title = 'webpack vue'
 
   handlClick() {
     console.log('handlClick')
   }
-  
+
   get title1(): string {
     return this.title
   }
 
   set title1(title: string) {
-     this.title = title
+    this.title = title
   }
 
-  created(){
-    console.log('created');
-   
-  }
-
-  mounted() {
-    
+  created() {
+    console.log('created')
   }
 }
 </script>
-<style scoped>
-</style>
+<style scoped></style>

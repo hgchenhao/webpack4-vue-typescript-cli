@@ -1,7 +1,7 @@
-import * as types from './mutation-types';
+import * as types from './mutation-types'
 
 interface Commit {
-  (type: string, payload: any) :void
+  (type: string, payload: any): void
 }
 
 export const updateLoading = (context: { commit: Commit }, isLoading: boolean) => {

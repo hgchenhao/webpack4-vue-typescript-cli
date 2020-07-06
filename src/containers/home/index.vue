@@ -1,33 +1,27 @@
 <template>
   <div class="wrapper">
-    {{title}}
+    {{ title }}
   </div>
 </template>
 
 <script lang="ts">
 import { Vue, Component } from 'vue-property-decorator'
-import BASE_API from '@/api/common';
+import BASE_API from '@/api/common'
 
 @Component()
-export default class Test extends Vue { 
-  title: string = 'Home vue file'
-  props:{}
+export default class Test extends Vue {
+  title = 'Home vue file'
 
-  created(){
-    console.log('created');
-    this.getSetting();
-  }
-
-  mounted() {
-    
+  created() {
+    console.log('created')
+    this.getSetting()
   }
 
   getSetting() {
-    BASE_API.settings(res=> {
-      console.log(res);
+    BASE_API.settings(res => {
+      console.log(res)
     })
   }
 }
 </script>
-<style scoped>
-</style>
+<style scoped></style>

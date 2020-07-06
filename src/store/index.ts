@@ -1,12 +1,12 @@
-import Vue from 'vue';
+import Vue from 'vue'
 import Vuex, { GetterTree, MutationTree, ActionTree } from 'vuex'
 
-import * as getters from './getters';
-import * as actions from './actions';
-import mutations from './mutations';
-import classroom from './modules/classroom';
+import * as getters from './getters'
+import * as actions from './actions'
+import mutations from './mutations'
+import classroom from './modules/classroom'
 
-Vue.use(Vuex);
+Vue.use(Vuex)
 
 interface GlobalState {
   [key: string]: any
@@ -15,7 +15,7 @@ interface GlobalState {
 const state: GlobalState = {
   token: null,
   user: {},
-  isLoading: false
+  isLoading: false,
 }
 
 interface MyStore {
@@ -24,7 +24,7 @@ interface MyStore {
   actions: ActionTree<GlobalState, any>
   mutations: MutationTree<GlobalState>
   modules: {
-    [propName: string]: object;
+    [propName: string]: object
   }
 }
 

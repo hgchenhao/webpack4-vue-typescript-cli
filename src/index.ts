@@ -1,29 +1,28 @@
-import './less/app.less';
-import './less/index.less';
-import router from '@/router';
-import Vue from 'vue';
-import plugins from '@/plugins';
-import filters from '@/filters';
-import store from '@/store';
+import './less/app.less'
+import './less/index.less'
+import router from '@/router'
+import Vue from 'vue'
+import plugins from '@/plugins'
+import filters from '@/filters'
+import store from '@/store'
 
-import App from './app.vue';
+import App from './app.vue'
 
-import { Button } from 'vant';
+import { Button } from 'vant'
 
-Vue.use(Button);
+Vue.use(Button)
 
-declare const module: any;
-if(module.hot && process.env.NODE_ENV === 'development'){
+declare const module: any
+if (module.hot && process.env.NODE_ENV === 'development') {
   module.hot.accept()
 }
 
-Vue.use(plugins)
-   .use(filters);
+Vue.use(plugins).use(filters)
 
-Vue.config.productionTip = false;  
+Vue.config.productionTip = false
 
 new Vue({
   router,
   store,
-  render: h=> h(App),
-}).$mount('#app');
+  render: h => h(App),
+}).$mount('#app')

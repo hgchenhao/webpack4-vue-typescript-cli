@@ -1,4 +1,4 @@
-import IO from '@/request';
+import IO from '@/request'
 
 const config: object[] = [
   {
@@ -15,12 +15,10 @@ const config: object[] = [
     name: 'mock',
     url: 'https://www.easy-mock.com/mock/5acdce3c493fb7245688f209/example/cli/{id}/test',
     method: 'GET',
-    noPre: true
-  }
+    noPre: true,
+  },
 ]
 
-const api = new IO();
+const api = new IO()
 
-export default api.scope(
-  config,
-);
+export default api.scope(config)
