@@ -5,11 +5,11 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin'); //清空
 module.exports = {
   mode: "production",
   entry: {
-    vendor: ['vue', 'vue-router']
+    vendor: ['vue', 'vue-router', 'vuex', 'axios']
   },
   output: {
     path: path.resolve(__dirname, '../dll'),
-    filename: '[name].[contenthash:6].dll.js', 
+    filename: '[name].[contenthash:6].dll.js',
     library: '[name]_libraly',  // 必须与 DllPlugin的name 一致
   },
   plugins: [

@@ -6,7 +6,7 @@
 
 ```bash
 # 克隆项目
-git clone 
+git clone https://github.com/hgchenhao/webpack4-vue-typescript-cli
 
 # 进入项目目录
 cd webpack4-vue-typescript-cli
@@ -41,6 +41,9 @@ npm run compile
 # 静态资源分析
 npm run analyzer
 
+# 修复lint
+npm run lint
+
 # 自动生成vue文件 
 npm run generate:vue   //默认在src/containers下
 
@@ -74,7 +77,6 @@ npm run generate:vue path:src/demo  // 可指定目录
 ```
 #### TODO
 - 添加单元测试
-- 配置ESLint
-- 配置husky
-- splitChunks抽离公共业务代码
-- 持续优化
+- 集成qiankun2.0，应用于微前端技术架构解决方案
+- 开发一套对应的react版本
+- 优化，改善

@@ -32,6 +32,36 @@ module.exports = (env, argv) => {
         '@': path.resolve(__dirname, '../src'),
       }
     },
+    externals: {
+    },
+    optimization: {
+      runtimeChunk: {
+        name: 'runtime'
+      },
+      splitChunks: {
+        chunks: 'all',
+        cacheGroups: {
+          libs: {
+            name: 'chunk-libs',
+            test: /[\\/]node_modules[\\/]/,
+            priority: 10,
+            chunks: 'initial',
+          },
+          vant: {
+            name: 'chunk-vant',
+            test: /[\\/]node_modules[\\/]_?vant(.*)/,
+            priority: 20,  // 权重要大于 libs 和 commons 不然会被打包进 libs 或者 commons
+          },
+          commons: {
+            name: 'chunk-commons',
+            test: path.resolve(__dirname, '../src/components'),
+            minChunks: 3,
+            priority: 5,
+            reuseExistingChunk: true,
+          }
+        }
+      }
+    },
     plugins: [
       new HappyPack({   // https://github.com/amireh/happypack/issues/223
         id: 'happybabel',
@@ -41,7 +71,7 @@ module.exports = (env, argv) => {
       new vueLoaderPlugin(),
       new MiniCssExtractPlugin({
         filename: isDev[NODE_ENV] ? "css/[name].css" : "css/[name].[contenthash].css",
-        chunkFilename: isDev[NODE_ENV] ? '[id].css' : '[id].[contenthash].css',
+        chunkFilename: isDev[NODE_ENV] ? 'css/[id].css' : 'css/[id].[contenthash].css',
       }),
       new CopyWebpackPlugin({
         patterns: [
@@ -131,7 +161,7 @@ module.exports = (env, argv) => {
               }
             }
           ],
-          exclude: path.resolve(__dirname, '../node_modules'), 
+          exclude: path.resolve(__dirname, '../node_modules'),
         },
         {
           test: /\.js$/,
@@ -145,21 +175,21 @@ module.exports = (env, argv) => {
                 presets: ['@babel/preset-env']
               }
             }],
-            exclude: path.resolve(__dirname, '../node_modules'),
-          },
+          exclude: path.resolve(__dirname, '../node_modules'),
+        },
         {
-          test: /\.(ts||tsx)?$/,
-          exclude: path.resolve(__dirname, '../node_modules'), 
+          test: /\.ts$/,
+          exclude: path.resolve(__dirname, '../node_modules'),
           use: {
             loader: 'ts-loader',
             options: {
               transpileOnly: true,
               getCustomTransformers: () => ({
-                before: [ tsImportPluginFactory({
+                before: [tsImportPluginFactory({
                   libraryName: 'vant',
                   libraryDirectory: 'es',
                   style: true
-                }) ]
+                })]
               }),
               compilerOptions: {
                 module: 'es2015'
