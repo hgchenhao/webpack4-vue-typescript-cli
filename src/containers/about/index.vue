@@ -9,10 +9,10 @@ import { State, namespace } from 'vuex-class'
 
 const classroomModel = namespace('classroom')
 
-@Component()
+@Component
 export default class Test extends Mixins(Hello) {
-  @State('isLoading') isLoading
-  @classroomModel.State(state => state.joinStatus) joinStatus
+  @State('isLoading') isLoading: boolean
+  @classroomModel.State(state => state.joinStatus) joinStatus: boolean
   title = 'About vue file'
 
   created() {

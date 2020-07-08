@@ -8,7 +8,7 @@
 import { Vue, Component } from 'vue-property-decorator'
 import BASE_API from '@/api/common'
 
-@Component()
+@Component
 export default class Test extends Vue {
   title = 'Home vue file'
 
@@ -18,7 +18,7 @@ export default class Test extends Vue {
   }
 
   getSetting() {
-    BASE_API.settings(res => {
+    BASE_API.settings((res: any) => {
       console.log(res)
     })
   }

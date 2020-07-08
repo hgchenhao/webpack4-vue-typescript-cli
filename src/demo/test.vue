@@ -20,18 +20,18 @@ const classroomModel = namespace('classroom')
 })
 export default class Test extends Vue {
   // vuex
-  @State('isLoading') isLoading
-  @Getter('token') getterToken
-  @Action('updateLoading') updateLoading
-  @Mutation(types.UPDATE_LOADING_STATUS) mutationUpdateLoading
+  @State('isLoading') isLoading: boolean
+  @Getter('token') getterToken: string
+  @Action('updateLoading') updateLoading: Function
+  @Mutation(types.UPDATE_LOADING_STATUS) mutationUpdateLoading: Function
 
-  @classroomModel.State('joinStatus') joinStatus
-  @classroomModel.Action('setJoinStatus') setJoinStatus
-  @classroomModel.Mutation(types.JOIN_COURSE) joinCourse
+  @classroomModel.State('joinStatus') joinStatus: boolean
+  @classroomModel.Action('setJoinStatus') setJoinStatus: Function
+  @classroomModel.Mutation(types.JOIN_COURSE) joinCourse: Function
 
   // props
   @Prop({
-    tpe: String,
+    type: String,
     default: 'default value',
   })
   propA: string
@@ -62,7 +62,7 @@ export default class Test extends Vue {
 
   // Emit
   @Emit('click')
-  handleClick(name) {
+  handleClick(name: string) {
     this.$router.push({ name })
 
     return '@Emit' // 返回值作为$emit的第二个参数
