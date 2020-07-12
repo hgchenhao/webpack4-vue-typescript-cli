@@ -16,12 +16,13 @@
   "license": "ISC",
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged",
+      "commit-msg": "es-commit-msg-validator"
     }
   },
   "lint-staged": {
     "src/**/*.{ts,vue,js}": [
-      "eslint",
+      "npm eslint",
       "git add"
     ]
   },
@@ -47,6 +48,7 @@
     "happypack": "^5.0.1",
     "html-loader": "^1.1.0",
     "husky": "^4.2.5",
+    "es-commit-msg-validator": "1.0.2",
     "less": "^3.11.3",
     "less-loader": "^6.1.1",
     "lint-staged": "^10.2.11",

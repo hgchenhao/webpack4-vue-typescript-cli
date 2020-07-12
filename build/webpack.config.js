@@ -184,6 +184,7 @@ module.exports = (env, argv) => {
             loader: 'ts-loader',
             options: {
               transpileOnly: true,
+              appendTsSuffixTo: [/\.vue$/],
               getCustomTransformers: () => ({
                 before: [tsImportPluginFactory({
                   libraryName: 'vant',
