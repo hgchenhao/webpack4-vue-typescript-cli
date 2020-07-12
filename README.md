@@ -52,6 +52,26 @@ or
 npm run generate:vue path:src/demo  // 可指定目录
 ```
 
+## Features
+##### ts environment
+##### vue + vue-router + vue-vuex 
+##### ui: vant
+##### eslint
+##### githooks + commitmsg规范
+  type | Comment
+  -|-|-
+  feat       | new feature
+  bugfix     | bug fix
+  test       | unit test，FT，AT etc  
+  refactor	 | documents
+  docs       | code refactor
+
+  ```bash 
+  // eg
+  git commit -m 'feat: #200712 add commit msg'
+  ```
+##### 待添加..
+
 ### 目录结构
 
 ```
@@ -76,7 +96,7 @@ npm run generate:vue path:src/demo  // 可指定目录
 
 ```
 #### TODO
-- 添加单元测试
+- 添加单元测试(vue-jest版本不太友好)
 - 集成qiankun2.0，应用于微前端技术架构解决方案
 - 开发一套对应的react版本
 - 优化，改善
