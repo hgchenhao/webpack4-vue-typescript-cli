@@ -57,6 +57,12 @@ npm run generate:vue path:src/demo  // 可指定目录
 ##### vue + vue-router + vue-vuex 
 ##### ui: vant
 ##### eslint
+##### jest + typescript + vue-test-utils
+
+```
+因为vue-jest版本的问题导致在vue文件中使用ts会有兼容问题，现在正在尝试有没有好点的解决方案去解决
+```
+
 ##### githooks + commitmsg规范
   type | Comment
   -|-|-
@@ -69,6 +75,8 @@ npm run generate:vue path:src/demo  // 可指定目录
   ```bash 
   // eg
   git commit -m 'feat: #200712 add commit msg'
+
+  git commit -m 'xxx' -n  //可忽略
   ```
 ##### 待添加..
 
