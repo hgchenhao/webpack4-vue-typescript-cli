@@ -65,13 +65,14 @@ npm run generate:vue path:src/demo  // 可指定目录
 
 ##### git hooks + commitmsg规范
 ---
-  type | Comment
-  -|-|-
-  feat       | new feature
-  bugfix     | bug fix
-  test       | unit test，FT，AT etc  
-  refactor	 | documents
-  docs       | code refactor
+
+type | Comment
+---|---
+feat| new feature
+bugfix| bug fix
+test| unit test，FT，AT etc  
+refactor| documents
+docs| code refactor
 
   ```bash 
   // eg
